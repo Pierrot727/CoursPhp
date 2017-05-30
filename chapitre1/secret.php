@@ -10,15 +10,16 @@
     <?php
     if (isset($_POST['code']))
     {
-     if (htmlspecialchars($_POST['code']) == "kangourou")
+     if ($_POST['code'] == "kangourou")
      {
          echo "les codes d'accés sont les suivant <br>
          toto<br>
          tito<br>
          raspouting<br>";
-     }
+		
+	 }
         else
-        {
+        {echo $_POST['code'];
             echo "code d'accés incorrect";
         }
     }

@@ -10,7 +10,7 @@
     <form action="secret.php" method="POST">
         <p>
             <label> Entez le mot de passe
-                <input type="password" name="code">
+                <input type="text" name="code">
             </label>
         </p>
         <p>
@@ -18,5 +18,6 @@
         </p>
     </form>
 </body>
+
 
 </html>
