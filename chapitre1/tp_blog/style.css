@@ -1,0 +1,25 @@
+.corp {
+    text-align: justify;
+    width: 350px;
+    /* largeur (obligatoire) */
+    margin: auto;
+}
+.entete {
+    background-color: black;
+    /* fond noir */
+    color: white;
+    /* texte blanc */
+}
+.messages {
+    background-color: lightgrey;
+    /* fond gris */
+    color: black;
+    /* texte noir */
+}
+a {
+    color: blue;
+    font-style: italic;
+}
+#footer {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+    background-color: lightgrey;
+}
+.child {
+    text-align: center;
+}
+.champ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 400px;
+    margin: auto;
+}
+#message {
+    font-size: 2em;
+    color: red;
+}

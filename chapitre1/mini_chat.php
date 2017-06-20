@@ -9,33 +9,31 @@
 </head>
 <body>
 
-    <form action="chat.php" method="GET">
-        <p>
-            <label> Entrez votre pseudo
-            <input type="text" name="pseudo">
-            </label>
-        </p>
-        <p>
-            <label> Entrez votre message
-            <input type="text" name="message">
-            </label>
-        </p>
-        <p>
-            <input type="submit" />
-        </p>
-    </form>
+<form action="chat.php" method="GET">
+    <p>
+        <label> Entrez votre pseudo
+            <input type="text" name="f_pseudo">
+        </label>
+    </p>
+    <p>
+        <label> Entrez votre message
+            <input type="text" name="f_message">
+        </label>
+    </p>
+    <p>
+        <input type="submit"/>
+    </p>
+</form>
 
 </body>
 </html>
 <?php
-if (isset ($_GET['pseudo']) AND $_GET['message'])
-{
-    $bdd = new PDO ('mysql:host=localhost;dbname=test;charset=utf-8', 'root', "");
+$bdd = new PDO ('mysql:host=localhost;dbname=test;charset=utf8', 'root', "", array (PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
-    $chat = $bdd->query('SELECT ID, pseudos, messages FROM mini_chat ORDER BY ID DESC LIMIT 5 ');
+    $chat = $bdd->query('SELECT id,pseudo, message FROM mini_chat ORDER BY ID DESC LIMIT 5 ');
 
-while ($donnees = chat -> fetch ())
-{
-  echo '<p>' . $donnees ['pseudo'] . ' a dit ' . $donnees ['messages'] . '<p/>';
-}
+    while ($donnees = $chat->fetch()) {
+        echo '<p>' . $donnees['id'] . $donnees ['pseudo'] . ' a dit ' . $donnees ['message'] . '<p/>';
+    }
 
+?>
