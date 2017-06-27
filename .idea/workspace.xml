@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/jeux_video.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/style.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/mini_chat.php" afterPath="$PROJECT_DIR$/chapitre1/mini_chat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php" afterPath="$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php" afterPath="$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,48 +54,10 @@
       <file leaf-file-name="mini_chat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state relative-caret-position="855">
               <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="73" />
               <folding>
                 <marker date="1497964205010" expanded="true" signature="1480:1545" ph="SELECT id,ps... mini_chat" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inscription.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="54" />
-              <folding>
-                <marker date="1497978289506" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
-                <marker date="1497978289506" expanded="true" signature="1061:1161" ph="INSERT INTO membres... " />
-                <marker date="1497978289506" expanded="true" signature="1645:3296" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="1652:1982" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="1706:1820" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="1989:3288" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="2011:3280" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="2070:3239" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="2244:2379" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="2436:2567" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="2591:2754" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="2799:2930" ph="..." />
-                <marker date="1497978289506" expanded="true" signature="3029:3064" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connexion.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <marker date="1497979400853" expanded="true" signature="447:475" ph="SELECT * FRO... membres" />
-                <marker date="1497979400853" expanded="true" signature="447:485" ph="SELECT * FRO... membres" />
-                <marker date="1497979400853" expanded="true" signature="609:659" ph="SELECT * FRO... membres" />
               </folding>
             </state>
           </provider>
@@ -103,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <marker date="1496737931351" expanded="true" signature="644:721" ph="SELECT id,ps... mon_super_blog" />
                 <marker date="1496737931351" expanded="true" signature="751:789" ph="SELECT * FRO... mon_super_blog" />
@@ -119,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/chapitre1/chat.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <marker date="1496138339577" expanded="true" signature="326:383" ph="INSERT INTO `mini_chat`... " />
                 <marker date="1496138339577" expanded="true" signature="326:385" ph="INSERT INTO `mini_chat`... " />
@@ -136,6 +100,53 @@
               <folding>
                 <marker date="1496742500847" expanded="true" signature="160:207" ph="SELECT * FRO... mon_super_blog" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#1;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#2;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deconnexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inscription.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+              <folding>
+                <marker date="1498563159205" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
+                <marker date="1498563159205" expanded="true" signature="1079:1179" ph="INSERT INTO membres... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clignotant.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/js/clignotant.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,8 +173,15 @@
         <option value="$PROJECT_DIR$/chapitre1/tp_blog/cours_seb.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/validation.php" />
-        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/clignotant.js" />
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/php/connexion.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/php/deconnexion.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/php/inscription.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/js/clignotant.js" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php" />
       </list>
     </option>
   </component>
@@ -309,12 +327,15 @@
       <workItem from="1496134613411" duration="6975000" />
       <workItem from="1496729906804" duration="9809000" />
       <workItem from="1497963554574" duration="11000" />
-      <workItem from="1497963589727" duration="15191000" />
+      <workItem from="1497963589727" duration="15769000" />
+      <workItem from="1497988516315" duration="1187000" />
+      <workItem from="1498083952587" duration="1647000" />
+      <workItem from="1498543695510" duration="12111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39053000" />
+    <option name="totallyTimeSpent" value="54576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
@@ -351,74 +372,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapitre1/requetes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <marker date="1496730061178" expanded="true" signature="370:394" ph="SELECT * FRO... jeux_video" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/cours_seb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <marker date="1496742500847" expanded="true" signature="160:207" ph="SELECT * FRO... mon_super_blog" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/commentaires.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <marker date="1496730281420" expanded="true" signature="181:263" ph="SELECT nom, jeux_video" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.jeux_video">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/formulaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/mini_chat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="90" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="90" />
-          <folding>
-            <marker date="1496137042700" expanded="true" signature="823:863" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:888" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:891" ph="SELECT pseud... jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,9 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <marker date="1496730061178" expanded="true" signature="370:394" ph="SELECT * FRO... jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,9 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <marker date="1496730281420" expanded="true" signature="181:263" ph="SELECT nom, jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,7 +451,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,11 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="90" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="90" />
-          <folding>
-            <marker date="1496137042700" expanded="true" signature="823:863" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:888" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:891" ph="SELECT pseud... jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,7 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,11 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <marker date="1496137042700" expanded="true" signature="823:863" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:888" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:891" ph="SELECT pseud... jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,11 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <marker date="1496137042700" expanded="true" signature="823:863" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:888" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:891" ph="SELECT pseud... jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,7 +561,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <marker date="1496730281420" expanded="true" signature="181:263" ph="SELECT nom, jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,9 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <marker date="1496730061178" expanded="true" signature="370:394" ph="SELECT * FRO... jeux_video" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,11 +618,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
           <folding>
-            <marker date="1496137042700" expanded="true" signature="823:863" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:888" ph="SELECT pseud... jeux_video" />
-            <marker date="1496137042700" expanded="true" signature="823:891" ph="SELECT pseud... jeux_video" />
+            <marker date="1496138339577" expanded="true" signature="326:383" ph="INSERT INTO `mini_chat`... " />
+            <marker date="1496138339577" expanded="true" signature="326:385" ph="INSERT INTO `mini_chat`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="73" />
+          <folding>
+            <marker date="1497964205010" expanded="true" signature="1480:1545" ph="SELECT id,ps... mini_chat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/validation.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1496737931351" expanded="true" signature="644:721" ph="SELECT id,ps... mon_super_blog" />
+            <marker date="1496737931351" expanded="true" signature="751:789" ph="SELECT * FRO... mon_super_blog" />
+            <marker date="1496737931351" expanded="true" signature="751:798" ph="SELECT * FRO... mon_super_blog" />
+            <marker date="1496737931351" expanded="true" signature="902:986" ph="..." />
+            <marker date="1496737931351" expanded="true" signature="1009:1044" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/clignotant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="68" lean-forward="false" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="164" column="165" lean-forward="false" selection-start-line="164" selection-start-column="165" selection-end-line="164" selection-end-column="165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/deconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,81 +707,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/chat.php">
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/js/clignotant.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <marker date="1496138339577" expanded="true" signature="326:383" ph="INSERT INTO `mini_chat`... " />
-            <marker date="1496138339577" expanded="true" signature="326:385" ph="INSERT INTO `mini_chat`... " />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="73" />
-          <folding>
-            <marker date="1497964205010" expanded="true" signature="1480:1545" ph="SELECT id,ps... mini_chat" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <marker date="1497967229730" expanded="true" signature="306:406" ph="INSERT INTO membres... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1496737931351" expanded="true" signature="644:721" ph="SELECT id,ps... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="751:789" ph="SELECT * FRO... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="751:798" ph="SELECT * FRO... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="902:986" ph="..." />
-            <marker date="1496737931351" expanded="true" signature="1009:1044" ph="..." />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="323">
+          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
-            <marker date="1497978289506" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
-            <marker date="1497978289506" expanded="true" signature="1061:1161" ph="INSERT INTO membres... " />
-            <marker date="1497978289506" expanded="true" signature="1645:3296" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="1652:1982" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="1706:1820" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="1989:3288" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="2011:3280" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="2070:3239" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="2244:2379" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="2436:2567" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="2591:2754" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="2799:2930" ph="..." />
-            <marker date="1497978289506" expanded="true" signature="3029:3064" ph="..." />
+            <marker date="1498563159205" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
+            <marker date="1498563159205" expanded="true" signature="1079:1179" ph="INSERT INTO membres... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php">
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="430">
+          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
-            <marker date="1497979400853" expanded="true" signature="447:475" ph="SELECT * FRO... membres" />
-            <marker date="1497979400853" expanded="true" signature="447:485" ph="SELECT * FRO... membres" />
-            <marker date="1497979400853" expanded="true" signature="609:659" ph="SELECT * FRO... membres" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
           </folding>
         </state>
       </provider>

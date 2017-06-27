@@ -1,0 +1,3 @@
+Identifiant crée
+pseudo: test
+pass: azerty

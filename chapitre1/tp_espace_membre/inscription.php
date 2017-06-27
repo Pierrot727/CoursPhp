@@ -13,8 +13,8 @@ if (isset ($_POST['f_pseudo']) && !empty($_POST['f_pseudo']) && isset ($_POST['f
 
         if (!$user_req->fetch()) {
 
-            //Vérication regex si email contien un "@" et un "." et que les trois derniers caractéres sont alphanumérique, et i pour ignorer la casse
-            if (preg_match("#@+\.+\w{3}$#i", $_POST["f_email"])) {
+            //Vérication regex si email contient un "@" $1 et un "." $2 et que les trois derniers caractéres sont alphanumérique $3, et i pour ignorer la casse
+            if (preg_match("#.+(@).+(\.+)\w{2,4}$#", $_POST["f_email"])) {
 
 
                 //Insertion
@@ -23,6 +23,7 @@ if (isset ($_POST['f_pseudo']) && !empty($_POST['f_pseudo']) && isset ($_POST['f
                     'pseudo' => $_POST['f_pseudo'],
                     'pass' => $pass_hache,
                     'email' => $_POST['f_email']));
+                $message = "Ce compte a bien été crée. <br /><a href=\"index.php\">Cliquez ici pour vous identifier !</a>";
 
             } else {
                 $error = "L'email n'a pas un format valide !";;
@@ -41,7 +42,7 @@ if (isset ($_POST['f_pseudo']) && !empty($_POST['f_pseudo']) && isset ($_POST['f
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TP Espace membre - Inscription</title>
 </head>
@@ -80,12 +81,17 @@ if (isset ($_POST['f_pseudo']) && !empty($_POST['f_pseudo']) && isset ($_POST['f
             </p>
         </div>
         <div class="child">
-            <div id="message">
+            <div id="erreur">
                 <p>
                     <?= isset($error) ? $error : ""; ?>
                 </p>
             </div>
-        </div>
+            <div id="message">
+                <p>
+                    <?= isset($message) ? $message : ""; ?>
+                </p>
+            </div>
 </form>
+<script src="js/clignotant.js"></script>
 </body>
 </html>
