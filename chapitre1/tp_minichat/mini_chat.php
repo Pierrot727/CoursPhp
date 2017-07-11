@@ -22,12 +22,6 @@ if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'] )){
     $req->execute(array($_POST['form_pseudo'], $_POST['form_message']));
 }
 
-//Préremplissage champ pseudo
-if (!empty($_POST['form_pseudo'])) {
-    setcookie('pseudo', $_POST['pseudo'], time()+3600, null, null, false, true);
-} else {
-    setcookie('pseudo', 'pseudonyme' , time()+3600, null, null, false, true);
-}
 
 ?>
 <!doctype html>
