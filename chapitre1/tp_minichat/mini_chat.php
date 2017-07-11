@@ -3,12 +3,14 @@
 $bdd = new PDO ('mysql:host=localhost;dbname=tp_minichat;charset=utf8', 'root', "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
 //Recupération des 5 derniers messages
-$chat = $bdd->query('SELECT id,pseudo, message FROM mini_chat ORDER BY ID DESC LIMIT 5 ');
+$donnees = $bdd->query('SELECT id,pseudo, message FROM mini_chat ORDER BY ID DESC LIMIT 5 ')->fetchAll();
 
-//Insertion dans la base à l'aide d'une requete préparée
-$req = $bdd->prepare('INSERT INTO mini_chat (pseudo, message) VALUES(?, ?)');
-$req->execute(array($_POST['form_pseudo'], $_POST['form_message']));
 
+//Insertion dans la base à l'aide d'une requete préparée et test si existe
+if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'] )){
+    $req = $bdd->prepare('INSERT INTO mini_chat (pseudo, message) VALUES(?, ?)');
+    $req->execute(array($_POST['form_pseudo'], $_POST['form_message']));
+}
 ?>
 <!doctype html>
 <html lang="fr">
@@ -49,9 +51,9 @@ $req->execute(array($_POST['form_pseudo'], $_POST['form_message']));
     <?php
 
     //Affichage des messages
-    while ($donnees = $chat->fetch()) {
-        echo '<p>' . $donnees['id'] . $donnees ['pseudo'] . ' a dit ' . $donnees ['message'] . '<p/>';
-        echo '<p><strong>' . htmlspecialchars($donnees['pseudo']) . '</strong> : ' . htmlspecialchars($donnees['message']) . '</p>';
+    foreach ($donnees as $valeur) {
+        echo $valeur['pseudo'];
+        echo " a dit " . $valeur['message'];
     }
 
     ?>
