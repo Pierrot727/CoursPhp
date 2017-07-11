@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/7e003abb-7505-4aed-8372-55bfde104ada.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/chat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/comptage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/compteur.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/fonctions_sql.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/formulaire.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/info.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/jeux_video.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/jeux_video_1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/jeux_video_2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/jeux_video_3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/mini_chat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/requetes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/secret.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/tp_minichat.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" afterPath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,25 +55,31 @@
       <file leaf-file-name="mini_chat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding>
-                <marker date="1499785573521" expanded="true" signature="257:322" ph="SELECT id,ps... mini_chat" />
-                <marker date="1499785573521" expanded="true" signature="513:565" ph="INSERT INTO mini_chat... " />
-                <marker date="1499785573521" expanded="true" signature="678:1891" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="685:994" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="739:853" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1001:1883" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1022:1679" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1051:1671" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1079:1158" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1095:1108" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1186:1545" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1202:1361" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1377:1530" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1573:1660" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1589:1645" ph="..." />
-                <marker date="1499785573521" expanded="true" signature="1701:1875" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="475:547" ph="SELECT id,ps... mini_chat" />
+                <marker date="1499787856164" expanded="true" signature="738:797" ph="INSERT INTO mini_chat... " />
+                <marker date="1499787856164" expanded="true" signature="738:803" ph="INSERT INTO mini_chat... " />
+                <marker date="1499787856164" expanded="true" signature="738:805" ph="INSERT INTO mini_chat... " />
+                <marker date="1499787856164" expanded="true" signature="1155:2478" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1162:1181" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1162:1471" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1216:1330" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1478:1492" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1478:2470" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1499:2205" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1528:2197" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1556:1635" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1572:1585" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1663:2071" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1679:1718" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1679:1887" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="1903:2056" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="2099:2186" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="2115:2171" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="2227:2331" ph="..." />
+                <marker date="1499787856164" expanded="true" signature="2227:2462" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,8 +141,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="55" />
               <folding>
                 <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
               </folding>
@@ -374,12 +365,12 @@
       <workItem from="1498543695510" duration="12449000" />
       <workItem from="1499765686093" duration="384000" />
       <workItem from="1499767823353" duration="3546000" />
-      <workItem from="1499783902248" duration="1673000" />
+      <workItem from="1499783902248" duration="4041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60517000" />
+    <option name="totallyTimeSpent" value="62885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
@@ -559,16 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/cours_seb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -593,27 +574,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <marker date="1499785573521" expanded="true" signature="257:322" ph="SELECT id,ps... mini_chat" />
-            <marker date="1499785573521" expanded="true" signature="513:565" ph="INSERT INTO mini_chat... " />
-            <marker date="1499785573521" expanded="true" signature="678:1891" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="685:994" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="739:853" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1001:1883" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1022:1679" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1051:1671" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1079:1158" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1095:1108" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1186:1545" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1202:1361" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1377:1530" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1573:1660" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1589:1645" ph="..." />
-            <marker date="1499785573521" expanded="true" signature="1701:1875" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="475:547" ph="SELECT id,ps... mini_chat" />
+            <marker date="1499787856164" expanded="true" signature="738:797" ph="INSERT INTO mini_chat... " />
+            <marker date="1499787856164" expanded="true" signature="738:803" ph="INSERT INTO mini_chat... " />
+            <marker date="1499787856164" expanded="true" signature="738:805" ph="INSERT INTO mini_chat... " />
+            <marker date="1499787856164" expanded="true" signature="1155:2478" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1162:1181" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1162:1471" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1216:1330" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1478:1492" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1478:2470" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1499:2205" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1528:2197" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1556:1635" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1572:1585" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1663:2071" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1679:1718" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1679:1887" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="1903:2056" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="2099:2186" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="2115:2171" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="2227:2331" ph="..." />
+            <marker date="1499787856164" expanded="true" signature="2227:2462" ph="..." />
           </folding>
         </state>
       </provider>

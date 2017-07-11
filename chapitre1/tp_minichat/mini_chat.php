@@ -1,16 +1,34 @@
 <?php
+//Création de la session
+session_start();
+
+//Préremplissage champ pseudo
+if (isset($_SESSION['session_pseudo'])) {
+    $_SESSION['session_pseudo'] = $_POST['form_pseudo'];
+} else {
+    $_POST['form_pseudo'] = null;
+}
+
 //Accés à la base de donnée (wamp server windows)
 $bdd = new PDO ('mysql:host=localhost;dbname=tp_minichat;charset=utf8', 'root', "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
 //Recupération des 5 derniers messages
-$donnees = $bdd->query('SELECT id,pseudo, message FROM mini_chat ORDER BY ID DESC LIMIT 5 ')->fetchAll();
+$donnees = $bdd->query('SELECT id,pseudo, message, heure FROM mini_chat ORDER BY ID DESC LIMIT 5 ')->fetchAll();
 
 
 //Insertion dans la base à l'aide d'une requete préparée et test si existe
 if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'] )){
-    $req = $bdd->prepare('INSERT INTO mini_chat (pseudo, message) VALUES(?, ?)');
+    $req = $bdd->prepare('INSERT INTO mini_chat (pseudo, message,heure) VALUES(?, ?, now())');
     $req->execute(array($_POST['form_pseudo'], $_POST['form_message']));
 }
+
+//Préremplissage champ pseudo
+if (!empty($_POST['form_pseudo'])) {
+    setcookie('pseudo', $_POST['pseudo'], time()+3600, null, null, false, true);
+} else {
+    setcookie('pseudo', 'pseudonyme' , time()+3600, null, null, false, true);
+}
+
 ?>
 <!doctype html>
 <html lang="fr">
@@ -33,7 +51,7 @@ if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'] )){
         <div class="child">
             <p>
                 <label for=form_pseudo"> Entrez votre pseudo </label>
-                <input id="form_pseudo" type="text" name="form_pseudo">
+                <input id="form_pseudo" type="text" name="form_pseudo" value=<?php echo $_SESSION['session_pseudo']; ?>>
             </p>
             <p>
                 <label for="form_message"> Entrez votre message </label>
@@ -52,8 +70,9 @@ if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'] )){
 
     //Affichage des messages
     foreach ($donnees as $valeur) {
-        echo $valeur['pseudo'];
-        echo " a dit " . $valeur['message'];
+        echo "[" . $valeur['heure'] . "] ";
+        echo '<strong>' .$valeur['pseudo'] . '</strong> : ';
+        echo $valeur['message'];
     }
 
     ?>

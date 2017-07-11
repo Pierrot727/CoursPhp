@@ -28,7 +28,13 @@
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="12" parent="8" name="PRIMARY">
+    <column id="12" parent="8" name="heure">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="13" parent="8" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
