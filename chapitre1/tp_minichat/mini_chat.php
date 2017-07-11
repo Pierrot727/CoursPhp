@@ -4,9 +4,9 @@ session_start();
 
 //Préremplissage champ pseudo
 if (isset($_SESSION['session_pseudo'])) {
-    $_SESSION['session_pseudo'] = $_POST['form_pseudo'];
+    $_POST['form_pseudo'] = $_SESSION['session_pseudo'];
 } else {
-    $_POST['form_pseudo'] = null;
+    $_SESSION['session_pseudo'] = null;
 }
 
 //Accés à la base de donnée (wamp server windows)

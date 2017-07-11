@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" afterPath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,31 +54,31 @@
       <file leaf-file-name="mini_chat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
-                <marker date="1499788094327" expanded="true" signature="475:547" ph="SELECT id,ps... mini_chat" />
-                <marker date="1499788094327" expanded="true" signature="738:797" ph="INSERT INTO mini_chat... " />
-                <marker date="1499788094327" expanded="true" signature="738:803" ph="INSERT INTO mini_chat... " />
-                <marker date="1499788094327" expanded="true" signature="738:805" ph="INSERT INTO mini_chat... " />
-                <marker date="1499788094327" expanded="true" signature="918:2241" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="925:944" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="925:1234" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="979:1093" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1241:1255" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1241:2233" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1262:1968" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1291:1960" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1319:1398" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1335:1348" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1426:1834" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1442:1481" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1442:1650" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1666:1819" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1862:1949" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1878:1934" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1990:2094" ph="..." />
-                <marker date="1499788094327" expanded="true" signature="1990:2225" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="481:553" ph="SELECT id,ps... mini_chat" />
+                <marker date="1499788380903" expanded="true" signature="744:803" ph="INSERT INTO mini_chat... " />
+                <marker date="1499788380903" expanded="true" signature="744:809" ph="INSERT INTO mini_chat... " />
+                <marker date="1499788380903" expanded="true" signature="744:811" ph="INSERT INTO mini_chat... " />
+                <marker date="1499788380903" expanded="true" signature="924:2247" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="931:950" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="931:1240" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="985:1099" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1247:1261" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1247:2239" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1268:1974" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1297:1966" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1325:1404" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1341:1354" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1432:1840" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1448:1487" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1448:1656" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1672:1825" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1868:1955" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1884:1940" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1996:2100" ph="..." />
+                <marker date="1499788380903" expanded="true" signature="1996:2231" ph="..." />
               </folding>
             </state>
           </provider>
@@ -365,12 +364,12 @@
       <workItem from="1498543695510" duration="12449000" />
       <workItem from="1499765686093" duration="384000" />
       <workItem from="1499767823353" duration="3546000" />
-      <workItem from="1499783902248" duration="4191000" />
+      <workItem from="1499783902248" duration="4480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63035000" />
+    <option name="totallyTimeSpent" value="63324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
@@ -586,31 +585,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
-            <marker date="1499788094327" expanded="true" signature="475:547" ph="SELECT id,ps... mini_chat" />
-            <marker date="1499788094327" expanded="true" signature="738:797" ph="INSERT INTO mini_chat... " />
-            <marker date="1499788094327" expanded="true" signature="738:803" ph="INSERT INTO mini_chat... " />
-            <marker date="1499788094327" expanded="true" signature="738:805" ph="INSERT INTO mini_chat... " />
-            <marker date="1499788094327" expanded="true" signature="918:2241" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="925:944" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="925:1234" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="979:1093" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1241:1255" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1241:2233" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1262:1968" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1291:1960" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1319:1398" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1335:1348" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1426:1834" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1442:1481" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1442:1650" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1666:1819" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1862:1949" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1878:1934" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1990:2094" ph="..." />
-            <marker date="1499788094327" expanded="true" signature="1990:2225" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="481:553" ph="SELECT id,ps... mini_chat" />
+            <marker date="1499788380903" expanded="true" signature="744:803" ph="INSERT INTO mini_chat... " />
+            <marker date="1499788380903" expanded="true" signature="744:809" ph="INSERT INTO mini_chat... " />
+            <marker date="1499788380903" expanded="true" signature="744:811" ph="INSERT INTO mini_chat... " />
+            <marker date="1499788380903" expanded="true" signature="924:2247" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="931:950" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="931:1240" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="985:1099" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1247:1261" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1247:2239" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1268:1974" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1297:1966" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1325:1404" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1341:1354" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1432:1840" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1448:1487" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1448:1656" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1672:1825" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1868:1955" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1884:1940" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1996:2100" ph="..." />
+            <marker date="1499788380903" expanded="true" signature="1996:2231" ph="..." />
           </folding>
         </state>
       </provider>
