@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php" afterPath="$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php" afterPath="$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" afterPath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +27,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="test@localhost" />
+        <option name="myItemId" value="tp_minichat@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -39,11 +37,15 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="test@localhost" />
+        <option name="myItemId" value="tp_minichat@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="test" />
+        <option name="myItemId" value="tp_minichat" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="mini_chat" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -51,14 +53,40 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mini_chat.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mini_chat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="73" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1497964205010" expanded="true" signature="1480:1545" ph="SELECT id,ps... mini_chat" />
+                <marker date="1499770193652" expanded="true" signature="254:319" ph="SELECT id,ps... mini_chat" />
+                <marker date="1499770193652" expanded="true" signature="404:456" ph="INSERT INTO mini_chat... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tp_minichat.mini_chat" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/82845fff/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/tp_minichat.mini_chat">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,14 +132,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            <state relative-caret-position="3247">
+              <caret line="191" column="25" lean-forward="true" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="59" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#1;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#2;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
               </folding>
             </state>
@@ -131,7 +157,7 @@
       <file leaf-file-name="inscription.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="425">
               <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <marker date="1498563159205" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
@@ -171,7 +197,6 @@
         <option value="$PROJECT_DIR$/chapitre1/tp_blog/commentaires.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_blog/index.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_blog/cours_seb.php" />
-        <option value="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/validation.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/clignotant.js" />
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php" />
@@ -182,6 +207,7 @@
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/deconnexion.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php" />
+        <option value="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
       </list>
     </option>
   </component>
@@ -330,21 +356,23 @@
       <workItem from="1497963589727" duration="15769000" />
       <workItem from="1497988516315" duration="1187000" />
       <workItem from="1498083952587" duration="1647000" />
-      <workItem from="1498543695510" duration="12111000" />
+      <workItem from="1498543695510" duration="12449000" />
+      <workItem from="1499765686093" duration="384000" />
+      <workItem from="1499767823353" duration="2412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54576000" />
+    <option name="totallyTimeSpent" value="57710000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28489584" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -372,24 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapitre1/mini_chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="90" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <marker date="1496138339577" expanded="true" signature="326:383" ph="INSERT INTO `mini_chat`... " />
-            <marker date="1496138339577" expanded="true" signature="326:385" ph="INSERT INTO `mini_chat`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -442,18 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.jeux_video">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.jeux_video" />
     <entry file="file://$PROJECT_DIR$/chapitre1/formulaire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -538,32 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.mini_chat">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.mini_chat" />
     <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video2.php" />
     <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video.php" />
-    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.jeux_video">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.jeux_video" />
     <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -621,92 +598,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <marker date="1496138339577" expanded="true" signature="326:383" ph="INSERT INTO `mini_chat`... " />
-            <marker date="1496138339577" expanded="true" signature="326:385" ph="INSERT INTO `mini_chat`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="73" />
-          <folding>
-            <marker date="1497964205010" expanded="true" signature="1480:1545" ph="SELECT id,ps... mini_chat" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/validation.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1496737931351" expanded="true" signature="644:721" ph="SELECT id,ps... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="751:789" ph="SELECT * FRO... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="751:798" ph="SELECT * FRO... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="902:986" ph="..." />
-            <marker date="1496737931351" expanded="true" signature="1009:1044" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/clignotant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="68" lean-forward="false" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="164" column="165" lean-forward="false" selection-start-line="164" selection-start-column="165" selection-end-line="164" selection-end-column="165" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/inscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/deconnexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/cours_seb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <marker date="1496742500847" expanded="true" signature="160:207" ph="SELECT * FRO... mon_super_blog" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/clignotant.js" />
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/connexion.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/connexion.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/inscription.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/php/deconnexion.php" />
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/js/clignotant.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -725,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="425">
           <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
           <folding>
             <marker date="1498563159205" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
@@ -734,14 +631,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/cours_seb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <marker date="1496742500847" expanded="true" signature="160:207" ph="SELECT * FRO... mon_super_blog" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <marker date="1496138339577" expanded="true" signature="326:383" ph="INSERT INTO `mini_chat`... " />
+            <marker date="1496138339577" expanded="true" signature="326:385" ph="INSERT INTO `mini_chat`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1496737931351" expanded="true" signature="644:721" ph="SELECT id,ps... mon_super_blog" />
+            <marker date="1496737931351" expanded="true" signature="751:789" ph="SELECT * FRO... mon_super_blog" />
+            <marker date="1496737931351" expanded="true" signature="751:798" ph="SELECT * FRO... mon_super_blog" />
+            <marker date="1496737931351" expanded="true" signature="902:986" ph="..." />
+            <marker date="1496737931351" expanded="true" signature="1009:1044" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        <state relative-caret-position="3247">
+          <caret line="191" column="25" lean-forward="true" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="59" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#2;n#div#0;n#div#1;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/82845fff/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/tp_minichat.mini_chat">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1499770193652" expanded="true" signature="254:319" ph="SELECT id,ps... mini_chat" />
+            <marker date="1499770193652" expanded="true" signature="404:456" ph="INSERT INTO mini_chat... " />
           </folding>
         </state>
       </provider>

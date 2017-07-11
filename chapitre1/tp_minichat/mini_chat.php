@@ -1,69 +1,61 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mini-chat</title>
-</head>
-<body>
-<form action="chat.php" method="GET">
-    <p>
-        <label> Entrez votre pseudo
-            <input type="text" name="f_pseudo">
-        </label>
-    </p>
-    <p>
-        <label> Entrez votre message
-            <input type="text" name="f_message">
-        </label>
-    </p>
-    <p>
-        <input type="submit"/>
-    </p>
-</form>
-</body>
-</html>
-
-
-
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mini-chat</title>
-</head>
-<body>
-
-<form action="chat.php" method="GET">
-    <p>
-        <label> Entrez votre pseudo
-            <input type="text" name="f_pseudo">
-        </label>
-    </p>
-    <p>
-        <label> Entrez votre message
-            <input type="text" name="f_message">
-        </label>
-    </p>
-    <p>
-        <input type="submit"/>
-    </p>
-</form>
-
-</body>
-</html>
 <?php
-$bdd = new PDO ('mysql:host=localhost;dbname=test;charset=utf8', 'root', "", array (PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+//Accés à la base de donnée (wamp server windows)
+$bdd = new PDO ('mysql:host=localhost;dbname=tp_minichat;charset=utf8', 'root', "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
+//Recupération des 5 derniers messages
 $chat = $bdd->query('SELECT id,pseudo, message FROM mini_chat ORDER BY ID DESC LIMIT 5 ');
 
-while ($donnees = $chat->fetch()) {
-    echo '<p>' . $donnees['id'] . $donnees ['pseudo'] . ' a dit ' . $donnees ['message'] . '<p/>';
-}
+//Insertion dans la base à l'aide d'une requete préparée
+$req = $bdd->prepare('INSERT INTO mini_chat (pseudo, message) VALUES(?, ?)');
+$req->execute(array($_POST['form_pseudo'], $_POST['form_message']));
 
 ?>
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini-chat</title>
+</head>
+<body>
+<form method="POST">
+    <div class="formulaire">
+        <div class="child">
+            <p>
+            <h1>Mini-chat</h1>
+            </p>
+        </div>
+        <div class="child">
+            <p>
+                <label for=form_pseudo"> Entrez votre pseudo </label>
+                <input id="form_pseudo" type="text" name="form_pseudo">
+            </p>
+            <p>
+                <label for="form_message"> Entrez votre message </label>
+                <input id="form_message" name="form_messsage">
+            </p>
+        </div>
+        <div class="child">
+            <p>
+                <input type="submit"/>
+            </p>
+        </div>
+    </div>
+</form>
+<div class="message">
+    <?php
+
+    //Affichage des messages
+    while ($donnees = $chat->fetch()) {
+        echo '<p>' . $donnees['id'] . $donnees ['pseudo'] . ' a dit ' . $donnees ['message'] . '<p/>';
+        echo '<p><strong>' . htmlspecialchars($donnees['pseudo']) . '</strong> : ' . htmlspecialchars($donnees['message']) . '</p>';
+    }
+
+    ?>
+</div>
+</body>
+</html>
+
