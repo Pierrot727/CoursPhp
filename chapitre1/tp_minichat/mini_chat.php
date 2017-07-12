@@ -3,25 +3,21 @@
 session_start();
 
 //Préremplissage champ pseudo
-if (isset($_SESSION['session_pseudo'])) {
-    $_POST['form_pseudo'] = $_SESSION['session_pseudo'];
-} else {
-    $_SESSION['session_pseudo'] = null;
+if(isset ($_POST['form_pseudo'])){
+    $_SESSION['form_pseudo'] = $_POST['session_pseudo'];
 }
 
 //Accés à la base de donnée (wamp server windows)
 $bdd = new PDO ('mysql:host=localhost;dbname=tp_minichat;charset=utf8', 'root', "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
-//Recupération des 5 derniers messages
-$donnees = $bdd->query('SELECT id,pseudo, message, heure FROM mini_chat ORDER BY ID DESC LIMIT 5 ')->fetchAll();
-
-
 //Insertion dans la base à l'aide d'une requete préparée et test si existe
-if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'] )){
+if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'])) {
     $req = $bdd->prepare('INSERT INTO mini_chat (pseudo, message,heure) VALUES(?, ?, now())');
     $req->execute(array($_POST['form_pseudo'], $_POST['form_message']));
 }
 
+//Recupération des 5 derniers messages
+$donnees = $bdd->query('SELECT id,pseudo, message, heure FROM mini_chat ORDER BY ID DESC LIMIT 5 ')->fetchAll();
 
 ?>
 <!doctype html>
@@ -65,8 +61,8 @@ if (isset ($_POST['form_pseudo']) && isset ($_POST['form_message'] )){
     //Affichage des messages
     foreach ($donnees as $valeur) {
         echo "[" . $valeur['heure'] . "] ";
-        echo '<strong>' .$valeur['pseudo'] . '</strong> : ';
-        echo $valeur['message'];
+        echo '<strong>' . $valeur['pseudo'] . '</strong> : ';
+        echo $valeur['message'] . '</BR>';
     }
 
     ?>
