@@ -1,0 +1,11 @@
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    background-color: lightgrey;
+}
+.child {
+    text-align: center;
+}

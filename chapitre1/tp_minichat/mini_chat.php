@@ -4,8 +4,8 @@ session_start();
 
 //Préremplissage champ pseudo
 if(isset ($_POST['form_pseudo'])){
-    $_SESSION['form_pseudo'] = $_POST['session_pseudo'];
-}
+    $_SESSION['session_pseudo'] = $_POST['form_pseudo'];}
+
 
 //Accés à la base de donnée (wamp server windows)
 $bdd = new PDO ('mysql:host=localhost;dbname=tp_minichat;charset=utf8', 'root', "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
@@ -41,7 +41,7 @@ $donnees = $bdd->query('SELECT id,pseudo, message, heure FROM mini_chat ORDER BY
         <div class="child">
             <p>
                 <label for=form_pseudo"> Entrez votre pseudo </label>
-                <input id="form_pseudo" type="text" name="form_pseudo" value=<?php echo $_SESSION['session_pseudo']; ?>>
+                <input id="form_pseudo" type="text" name="form_pseudo" value=<?php echo if(isset($_SESSION['session_pseudo'])? $_SESSION['session_pseudo']; ?>>
             </p>
             <p>
                 <label for="form_message"> Entrez votre message </label>
