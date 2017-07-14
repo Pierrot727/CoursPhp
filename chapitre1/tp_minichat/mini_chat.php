@@ -41,11 +41,11 @@ $donnees = $bdd->query('SELECT id,pseudo, message, heure FROM mini_chat ORDER BY
         <div class="child">
             <p>
                 <label for=form_pseudo"> Entrez votre pseudo </label>
-                <input id="form_pseudo" type="text" name="form_pseudo" value=<?php echo if(isset($_SESSION['session_pseudo'])? $_SESSION['session_pseudo']; ?>>
+                <input id="form_pseudo" type="text" name="form_pseudo" value=<?php echo (isset($_SESSION['session_pseudo']))? $_SESSION['session_pseudo']:''; ?>>
             </p>
             <p>
                 <label for="form_message"> Entrez votre message </label>
-                <input id="form_message" name="form_messsage">
+                <input id="form_message" name="form_message">
             </p>
         </div>
         <div class="child">

@@ -8,27 +8,24 @@ function chargerClasse($classe)
 spl_autoload_register('chargerClasse'); // Antochargement des classes
 
 //Info :  classe du projet
-// class_bddManager.php -> Gestion de la base de donnée
+// PersonnageManager.php -> Gestion de la base de donnée
 
-$objet = new MaClasse; // Puis, seulement après, je me sers de ma classe.
+// Puis, seulement après, je me sers de ma classe.
 //Accés à la base de donnée
 
 //Création de la class (objet) Personnage
-class Personnage
-{
-    // attributs
-    private $_nom;
-    private $_force;
 
-    //methode
-    private function frapper()
-    {
 
-    }
+$perso = new Personnage();
+
+if (isset($_POST['form_nom']) && isset($_POST['form_power'])) {
+    $perso->setNom($_POST['form_nom']);
+    $perso->setPower($_POST['form_power']);
+    $persoManager = new PersonnageManager();
+    $persoManager->add($perso);
 }
 
-$defaut = new Personnage;
-
+var_dump($perso);
 ?>
 <!doctype html>
 <html lang="fr">
@@ -53,11 +50,11 @@ $defaut = new Personnage;
                 <div class="champ">
                     <p>
                         <label for=form_nom"> Nom du personnage : </label>
-                        <input id="form_nom"" type="text" name="form_pseudo">
+                        <input id="form_nom" type="text" name="form_nom"/>
                     </p>
                     <p>
-                        <label for="form_forcePerso"> Force du personnage : </label>
-                        <input id="form_forcePerso" name="form_forcePerso">
+                        <label for="form_power"> Force du personnage : </label>
+                        <input id="form_power" name="form_power"/>
                     </p>
                 </div>
             </div>
@@ -78,6 +75,8 @@ $defaut = new Personnage;
                     </p>
                 </div>
             </div>
+        </div>
+    </div>
 </form>
 </body>
 </html>
