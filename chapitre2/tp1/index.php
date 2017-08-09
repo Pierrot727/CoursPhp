@@ -16,7 +16,7 @@ spl_autoload_register('chargerClasse'); // Antochargement des classes
 //Création de la class (objet) Personnage
 
 
-$perso = new Personnage();
+$perso = new Personnage("toto");
 
 if (isset($_POST['form_nom']) && isset($_POST['form_power'])) {
     $perso->setNom($_POST['form_nom']);

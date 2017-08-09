@@ -7,6 +7,13 @@ class Personnage
     private $_degat = 0;
     private $_experience = 0;
     private $_niveau = 0;
+public function __construct($nom)
+{
+    $this->_nom = $nom;
+    echo "nouveau personnage";
+
+
+}
 
     /**
      * @return mixed
@@ -21,7 +28,12 @@ class Personnage
      */
     public function setNom($nom)
     {
-        $this->_nom = $nom;
+        if (strlen ($nom) >3) {
+            $this->_nom = $nom;
+        } else {
+            die("un nom doit faire plus de 3 caractéres");
+        }
+
     }
 
     /**
