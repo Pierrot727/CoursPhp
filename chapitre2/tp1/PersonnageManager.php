@@ -9,7 +9,7 @@ class PersonnageManager extends Manager
     {
         $q = $this->_db->prepare('INSERT INTO personnage(nom, power, degat, niveau, experience) VALUES(:nom, :power, :degat, :niveau, :experience)');
 
-        $q->bindValue(':nom', $perso->getNom());
+        $q->bindValue(':nom', $perso->getNom(), PDO::PARAM_STR);
         $q->bindValue(':power', $perso->getPower(), PDO::PARAM_INT);
         $q->bindValue(':degat', $perso->getDegat(), PDO::PARAM_INT);
         $q->bindValue(':niveau', $perso->getNiveau(), PDO::PARAM_INT);

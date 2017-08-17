@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/chapitre2/tp1/class_bddManager.php" afterPath="$PROJECT_DIR$/chapitre2/tp1/PersonnageManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f1b607ba-b1cd-4f41-9119-689be270c9c8.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/f1b607ba-b1cd-4f41-9119-689be270c9c8.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" afterPath="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre2/tp1/index.php" afterPath="$PROJECT_DIR$/chapitre2/tp1/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre1/tp_minichat/tp_minichat.sql" afterPath="$PROJECT_DIR$/chapitre1/tp_minichat/tp_minichat.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre2/tp1/PersonnageManager.php" afterPath="$PROJECT_DIR$/chapitre2/tp1/PersonnageManager.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,169 +21,51 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tp_minichat@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tp_minichat@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tp_minichat" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="mini_chat" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="openclassrooms@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="openclassrooms@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="openclassrooms" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="personnage" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="openclassrooms@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="openclassrooms@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="openclassrooms" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="openclassrooms@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="openclassrooms" type="e3449647:DbNodeDescriptor" />
+        <item name="personnage" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mini_chat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="55" lean-forward="false" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-              <folding>
-                <marker date="1500034173542" expanded="true" signature="534:593" ph="INSERT INTO mini_chat... " />
-                <marker date="1500034173542" expanded="true" signature="534:599" ph="INSERT INTO mini_chat... " />
-                <marker date="1500034173542" expanded="true" signature="534:601" ph="INSERT INTO mini_chat... " />
-                <marker date="1500034173542" expanded="true" signature="742:814" ph="SELECT id,ps... mini_chat" />
-                <marker date="1500034173542" expanded="true" signature="873:892" ph="..." />
-                <marker date="1500034173542" expanded="true" signature="1189:1203" ph="..." />
-                <marker date="1500034173542" expanded="true" signature="1390:1429" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonnageManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre2/tp1/PersonnageManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="85" lean-forward="false" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
-              <folding>
-                <marker date="1500037034647" expanded="true" signature="196:224" ph="INSERT INTO personnages... " />
-                <marker date="1500037034647" expanded="true" signature="196:236" ph="INSERT INTO personnage... " />
-                <marker date="1500037034647" expanded="true" signature="196:308" ph="INSERT INTO personnage... " />
-                <marker date="1500037034647" expanded="true" signature="759:793" ph="DELETE FROM " />
-                <marker date="1500037034647" expanded="true" signature="910:960" ph="SELECT id, n... personnage" />
-                <marker date="1500037034647" expanded="true" signature="1156:1206" ph="SELECT id, n... personnage" />
-                <marker date="1500037034647" expanded="true" signature="1454:1565" ph="UPDATE perso... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="openclassrooms.minijeuxdecombat" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/82845fff/f1b607ba-b1cd-4f41-9119-689be270c9c8/openclassrooms.minijeuxdecombat">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre2/tp1/Manager.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="153" lean-forward="false" selection-start-line="5" selection-start-column="153" selection-end-line="5" selection-end-column="153" />
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapitre2/tp1/index.php">
+      <file leaf-file-name="Controleur.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Controleur.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <marker date="1500036855179" expanded="true" signature="726:2331" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="733:1090" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="787:901" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1097:2323" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1118:2315" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1148:2307" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1176:2296" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1192:1205" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1282:1755" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1318:1736" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1342:1517" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1541:1713" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1787:1890" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1807:1871" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1922:2281" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1957:2094" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="1981:2071" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="2128:2262" ph="..." />
-                <marker date="1500036855179" expanded="true" signature="2152:2239" ph="..." />
+                <marker date="1502868501000" expanded="true" signature="1332:1333" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Personnage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre2/tp1/Personnage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f1b607ba-b1cd-4f41-9119-689be270c9c8/console.sql">
+      <file leaf-file-name="Requete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Requete.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -194,45 +74,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tp_minichat.mini_chat" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/82845fff/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/tp_minichat.mini_chat">
-          <provider editor-type-id="text-editor">
+      <file leaf-file-name="Routeur.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Routeur.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Vue.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        </entry>
+      </file>
+      <file leaf-file-name="dev.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Config/dev.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/index.php">
+      <file leaf-file-name="Configuration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Configuration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="340">
+              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Modele.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Modele.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
               <folding>
-                <marker date="1496737931351" expanded="true" signature="644:721" ph="SELECT id,ps... mon_super_blog" />
-                <marker date="1496737931351" expanded="true" signature="751:789" ph="SELECT * FRO... mon_super_blog" />
-                <marker date="1496737931351" expanded="true" signature="751:798" ph="SELECT * FRO... mon_super_blog" />
-                <marker date="1496737931351" expanded="true" signature="902:986" ph="..." />
-                <marker date="1496737931351" expanded="true" signature="1009:1044" ph="..." />
+                <marker date="1502867644000" expanded="true" signature="1554:1563" ph="..." />
+                <marker date="1502867644000" expanded="true" signature="1554:1566" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3315">
-              <caret line="195" column="11" lean-forward="false" selection-start-line="158" selection-start-column="4" selection-end-line="195" selection-end-column="11" />
-              <folding>
-                <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -257,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapitre1/formulaire.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7e003abb-7505-4aed-8372-55bfde104ada/console.sql" />
         <option value="$PROJECT_DIR$/chapitre1/mini_chat.php" />
         <option value="$PROJECT_DIR$/chapitre1/chat.php" />
@@ -281,10 +190,34 @@
         <option value="$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php" />
         <option value="$PROJECT_DIR$/chapitre2/tp1/class_bddManager.php" />
         <option value="$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/test.php" />
         <option value="$PROJECT_DIR$/chapitre2/tp1/Manager.php" />
         <option value="$PROJECT_DIR$/chapitre2/tp1/Personnage.php" />
         <option value="$PROJECT_DIR$/chapitre2/tp1/index.php" />
         <option value="$PROJECT_DIR$/chapitre2/tp1/PersonnageManager.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Modele.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/coursSeb.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/gabarit.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/vueErreur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/vueBillet.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/billet.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/vue.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/modele.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/modele.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/config.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/index.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/controleur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/vueAccueil.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Vue/gabarit.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Modele/billet.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Modele/modele.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Modele/Commentaire.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Controleur/controleur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Modele/Modele.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Modele/Vue.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/index.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Controleur/Routeur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Configuration.php" />
       </list>
     </option>
   </component>
@@ -296,12 +229,13 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1050" />
+    <option name="x" value="911" />
+    <option name="width" value="1012" />
+    <option name="height" value="1041" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -317,40 +251,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursPhp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursPhp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursPhp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursPhp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapitre2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cours" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cours" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cours" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Contenu" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cours" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controleur" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cours" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cours" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modele" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cours" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,6 +329,13 @@
       <recent name="C:\wamp64\www\coursPhp\chapitre1\tp_minichat" />
       <recent name="C:\wamp64\www\coursPhp\chapitre1\tp_blog" />
       <recent name="C:\wamp64\www\coursPhp\chapitre1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\coursPhp\chapitre3_mvc\cours\Framework" />
+      <recent name="C:\wamp64\www\coursPhp\chapitre3_mvc\cours\Vue" />
+      <recent name="C:\wamp64\www\coursPhp\chapitre3_mvc\cours\Contenu" />
+      <recent name="C:\wamp64\www\coursPhp\chapitre3_mvc\cours" />
+      <recent name="C:\wamp64\www\coursPhp\chapitre3_mvc\cours\Controleur" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,6 +351,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -414,15 +395,6 @@
     </configuration>
     <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
       <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -478,83 +450,94 @@
       <workItem from="1499859879600" duration="1473000" />
       <workItem from="1500013404911" duration="5260000" />
       <workItem from="1500034336127" duration="3305000" />
+      <workItem from="1500272914094" duration="5004000" />
+      <workItem from="1500974402127" duration="3556000" />
+      <workItem from="1500979374068" duration="248000" />
+      <workItem from="1501840918807" duration="15000" />
+      <workItem from="1501840960532" duration="9640000" />
+      <workItem from="1502278536544" duration="6624000" />
+      <workItem from="1502550300587" duration="6000" />
+      <workItem from="1502706780467" duration="23000" />
+      <workItem from="1502873951416" duration="761000" />
+      <workItem from="1502875061145" duration="2698000" />
     </task>
+    <task id="LOCAL-00001" summary="Seb test">
+      <created>1502285251532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502285251533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74440000" />
+    <option name="totallyTimeSpent" value="103015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <frame x="911" y="0" width="1012" height="1041" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30462185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29718876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Seb test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seb test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapitre1/formulaire.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/mini_chat.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/chat.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/commentaires.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/formulaire.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/mini_chat.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/chat.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video2.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/formulaire.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/mini_chat.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video.php" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e003abb-7505-4aed-8372-55bfde104ada/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.mini_chat" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video2.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video.php" />
-    <entry file="dbDummy://dbtable:/82845fff/7e003abb-7505-4aed-8372-55bfde104ada/test.jeux_video" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video_2.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/jeux_video_1.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/index.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/fonctions_sql.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre1/formulaire.php" />
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_blog/commentaires.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -578,18 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,19 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <marker date="1496742500847" expanded="true" signature="160:207" ph="SELECT * FRO... mon_super_blog" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="195" column="11" lean-forward="false" selection-start-line="158" selection-start-column="4" selection-end-line="195" selection-end-column="11" />
-          <folding>
-            <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,13 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <marker date="1496737931351" expanded="true" signature="644:721" ph="SELECT id,ps... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="751:789" ph="SELECT * FRO... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="751:798" ph="SELECT * FRO... mon_super_blog" />
-            <marker date="1496737931351" expanded="true" signature="902:986" ph="..." />
-            <marker date="1496737931351" expanded="true" signature="1009:1044" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,109 +594,241 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/82845fff/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/tp_minichat.mini_chat">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="dbDummy://dbtable:/82845fff/8ee10c59-2b34-4f2b-aaad-5c31fdca4b3d/tp_minichat.mini_chat" />
+    <entry file="dbDummy://dbtable:/82845fff/f1b607ba-b1cd-4f41-9119-689be270c9c8/openclassrooms.minijeuxdecombat" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/test.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="24" lean-forward="false" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapitre2/tp1/Manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="153" lean-forward="false" selection-start-line="5" selection-start-column="153" selection-end-line="5" selection-end-column="153" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapitre2/tp1/Personnage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/82845fff/f1b607ba-b1cd-4f41-9119-689be270c9c8/openclassrooms.minijeuxdecombat">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="55" lean-forward="false" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-          <folding>
-            <marker date="1500034173542" expanded="true" signature="534:593" ph="INSERT INTO mini_chat... " />
-            <marker date="1500034173542" expanded="true" signature="534:599" ph="INSERT INTO mini_chat... " />
-            <marker date="1500034173542" expanded="true" signature="534:601" ph="INSERT INTO mini_chat... " />
-            <marker date="1500034173542" expanded="true" signature="742:814" ph="SELECT id,ps... mini_chat" />
-            <marker date="1500034173542" expanded="true" signature="873:892" ph="..." />
-            <marker date="1500034173542" expanded="true" signature="1189:1203" ph="..." />
-            <marker date="1500034173542" expanded="true" signature="1390:1429" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre2/tp1/PersonnageManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="85" lean-forward="false" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
-          <folding>
-            <marker date="1500037034647" expanded="true" signature="196:224" ph="INSERT INTO personnages... " />
-            <marker date="1500037034647" expanded="true" signature="196:236" ph="INSERT INTO personnage... " />
-            <marker date="1500037034647" expanded="true" signature="196:308" ph="INSERT INTO personnage... " />
-            <marker date="1500037034647" expanded="true" signature="759:793" ph="DELETE FROM " />
-            <marker date="1500037034647" expanded="true" signature="910:960" ph="SELECT id, n... personnage" />
-            <marker date="1500037034647" expanded="true" signature="1156:1206" ph="SELECT id, n... personnage" />
-            <marker date="1500037034647" expanded="true" signature="1454:1565" ph="UPDATE perso... " />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapitre2/tp1/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre2/tp1/PersonnageManager.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/coursSeb.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Contenu/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12580">
+          <caret line="740" column="20" lean-forward="false" selection-start-line="740" selection-start-column="20" selection-end-line="740" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre1/tp_minichat/mini_chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/billet.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Vue/gabarit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Vue/vueErreur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Vue/vueAccueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Vue/vueBillet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Modele/Commentaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Modele/Billet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/modele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
           <folding>
-            <marker date="1500036855179" expanded="true" signature="726:2331" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="733:1090" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="787:901" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1097:2323" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1118:2315" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1148:2307" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1176:2296" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1192:1205" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1282:1755" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1318:1736" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1342:1517" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1541:1713" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1787:1890" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1807:1871" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1922:2281" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1957:2094" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="1981:2071" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="2128:2262" ph="..." />
-            <marker date="1500036855179" expanded="true" signature="2152:2239" ph="..." />
+            <marker date="1501851810798" expanded="true" signature="454:519" ph="INSERT INTO mini_chat... " />
+            <marker date="1501851810798" expanded="true" signature="711:783" ph="SELECT id,ps... mini_chat" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/vue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Modele.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <marker date="1502867644000" expanded="true" signature="1554:1563" ph="..." />
+            <marker date="1502867644000" expanded="true" signature="1554:1566" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Modele/Vue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Requete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Vue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Config/dev.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Controleur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1502868501000" expanded="true" signature="1332:1333" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Routeur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>

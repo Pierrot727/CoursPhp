@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Mar 11 Juillet 2017 à 10:50
+-- Généré le :  Ven 14 Juillet 2017 à 13:13
 -- Version du serveur :  5.7.14
 -- Version de PHP :  5.6.25
 
@@ -29,15 +29,21 @@ SET time_zone = "+00:00";
 CREATE TABLE `mini_chat` (
   `id` int(11) NOT NULL,
   `pseudo` varchar(255) NOT NULL,
-  `message` text NOT NULL
+  `message` text NOT NULL,
+  `heure` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Contenu de la table `mini_chat`
 --
 
-INSERT INTO `mini_chat` (`id`, `pseudo`, `message`) VALUES
-(1, 'pseudoTest', 'ceci est un message de test');
+INSERT INTO `mini_chat` (`id`, `pseudo`, `message`, `heure`) VALUES
+(7, 'Paul', 'Je vais bien merci et toi ?', '2017-07-14 15:09:19'),
+(6, 'Pierre', 'Bonjour Paul, comment vas-tu ?', '2017-07-14 15:09:07'),
+(8, 'Pierre', 'super et Marie ?', '2017-07-14 15:09:34'),
+(9, 'Paul', 'Elle est là, elle arrive', '2017-07-14 15:09:47'),
+(10, 'Marie', 'Salut les garçons, ça va ?', '2017-07-14 15:10:02'),
+(11, 'Pierre', 'Coucou, alors quoi de neuf ?', '2017-07-14 15:10:12');
 
 --
 -- Index pour les tables exportées
@@ -57,7 +63,7 @@ ALTER TABLE `mini_chat`
 -- AUTO_INCREMENT pour la table `mini_chat`
 --
 ALTER TABLE `mini_chat`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
