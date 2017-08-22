@@ -1,11 +1,11 @@
-<?php $this->titre = "Mon Blog - " . $billet['titre']; ?>
+<?php $this->titre = "Mon Blog - " . $this->nettoyer($billet['titre']); ?>
 
 <article>
     <header>
-        <h1 class="titreBillet"><?= $billet['titre'] ?></h1>
-        <time><?= $billet['date'] ?></time>
+        <h1 class="titreBillet"><?= $this->nettoyer($billet['titre']) ?></h1>
+        <time><?= $this->nettoyer($billet['date']) ?></time>
     </header>
-    <p><?= $billet['contenu'] ?></p>
+    <p><?= $this->nettoyer($billet['contenu']) ?></p>
 </article>
 <hr />
 <header>
