@@ -7,6 +7,6 @@ Auteur : [Baptiste Pesquet](https://github.com/bpesquet)
 
 ## Description
 
-* Cette version emploie une architecture MVC orientée objet.
-* Les autres versions sont disponibles sur les différentes branches du dépôt.
+* Version porté de mvc à framework par Pierrot727
+
 
