@@ -2,88 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Config/dev.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Contenu/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Controleur/ControleurAccueil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Controleur/ControleurBillet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Framework/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Framework/Controleur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Framework/Modele.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Framework/Requete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Framework/Routeur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Framework/Vue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Modele/Billet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Modele/Commentaire.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Vue/gabarit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Vue/vueAccueil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Vue/vueBillet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/Vue/vueErreur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/Etapes/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/BD/MonBlog.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Config/dev.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Contenu/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Controleur/ControleurAccueil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Controleur/ControleurBillet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Controleur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Modele.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Requete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Routeur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Vue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Modele/Billet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Modele/Commentaire.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Modele/Signaler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Vue/Accueil/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Vue/Billet/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Vue/erreur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Vue/gabarit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/BD/MonBlog.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Config/dev.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Config/prod.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Contenu/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Controleur/ControleurAccueil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Controleur/ControleurBillet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Controleur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Modele.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Requete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Routeur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Vue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Modele/Billet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Modele/Commentaire.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Vue/Accueil/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Vue/Billet/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Vue/erreur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Vue/gabarit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/nbproject/configs/monblog.pesquet.fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/nbproject/configs/test.pesquet.fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/nbproject/configs/xampp_local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/BD/MonBlog.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Contenu/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Controleur/ControleurAccueil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Controleur/ControleurBillet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Controleur/Routeur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Modele/Billet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Modele/Commentaire.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Modele/Modele.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Vue/Vue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Vue/gabarit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Vue/vueAccueil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Vue/vueBillet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/Vue/vueErreur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet/index.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/BD/MonBlog.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Config/dev.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Config/prod.ini.old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Contenu/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Controleur/ControleurAccueil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Controleur/ControleurAdmin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Controleur/ControleurBillet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Controleur/ControleurConnexion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Controleur/ControleurSecurise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Framework/Configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Framework/Controleur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Framework/Modele.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Framework/Requete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Framework/Routeur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Framework/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Framework/Vue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Modele/Billet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Modele/Commentaire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Modele/Utilisateur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Vue/Accueil/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Vue/Admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Vue/Billet/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Vue/Connexion/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Vue/erreur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/Vue/gabarit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/authentification_web_php.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/nbproject/configs/monblog.pesquet.fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/nbproject/configs/test.pesquet.fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/nbproject/configs/xampp_local.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/04 MonBlog-authentification/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/BD/MonBlog.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Config/dev.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Config/prod.ini.old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Contenu/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurAccueil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurAdmin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurBillet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurCommentaire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurConnexion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurSecurise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Controleur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Modele.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Requete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Routeur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Vue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Modele/Billet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Modele/Commentaire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Modele/Utilisateur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Vue/Accueil/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Vue/Admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Vue/Billet/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Vue/Connexion/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Vue/Inscription/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Vue/erreur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Vue/gabarit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/nbproject/configs/monblog.pesquet.fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/nbproject/configs/test.pesquet.fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/nbproject/configs/xampp_local.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/BD/MonBlog.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Config/dev.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Config/prod.ini.old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Contenu/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurAccueil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurAdmin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurBillet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurConnexion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurSecurise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Controleur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Modele.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Requete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Routeur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Vue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Billet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Commentaire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Utilisateur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Accueil/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Billet/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Connexion/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/erreur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/gabarit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/nbproject/configs/monblog.pesquet.fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/nbproject/configs/test.pesquet.fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/nbproject/configs/xampp_local.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/nbproject/project.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +145,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd8357cd-2fde-4a34-bb05-8ea153753da1/console.sql">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -132,15 +155,90 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inscription.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
+      <file leaf-file-name="ControleurConnexion.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurConnexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="764">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
-                <marker date="1498563159205" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
-                <marker date="1498563159205" expanded="true" signature="1079:1179" ph="INSERT INTO membres... " />
+                <marker date="1504696023477" expanded="true" signature="2290:2338" ph="SELECT * FRO... T_UTILISATEUR" />
+                <marker date="1504696023477" expanded="true" signature="3076:3134" ph="INSERT INTO T_UTILISATEUR... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControleurAdmin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Billet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Modele/Billet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utilisateur.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Modele/Utilisateur.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+              <folding>
+                <marker date="1504695748063" expanded="true" signature="436:503" ph="SELECT UTIL_... T_UTILISATEUR" />
+                <marker date="1504695748063" expanded="true" signature="929:977" ph="SELECT * FRO... T_UTILISATEUR" />
+                <marker date="1504695748063" expanded="true" signature="1530:1592" ph="INSERT INTO T_UTILISATEUR... " />
+                <marker date="1504695748063" expanded="true" signature="2315:2437" ph="SELECT UTIL_... T_UTILISATEUR" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Vue/Inscription/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Vue/Admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControleurCommentaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurCommentaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControleurBillet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurBillet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,30 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Modele/Vue.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/index.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Controleur/Routeur.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/cours/Framework/Configuration.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/mvc_final/Vue/gabarit.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog/Modele/Signaler.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog/Vue/Billet/index.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Vue/gabarit.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Modele/Modele.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Framework/Configuration.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Framework/Modele.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Framework/Requete.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Framework/Routeur.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Framework/Controleur.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Vue/Vue.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/.htaccess" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Vue/gabarit.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Framework/dev.ini" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Modele/Billet.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Modele/Commentaire.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Controleur/ControleurAccueil.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Controleur/ControleurBillet.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Vue/Billet/index.php" />
-        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/index.php" />
         <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-IV-D-2/Framework/Vue.php" />
         <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Vue/Billet/index.php" />
         <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/README.md" />
@@ -216,6 +290,30 @@
         <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Vue/Inscription/index.php" />
         <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurConnexion.php" />
         <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Modele/Utilisateur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Billet.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Commentaire.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Utilisateur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Accueil/index.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Admin/index.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Billet/index.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Connexion/index.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/erreur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/gabarit.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurAdmin.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurBillet.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurConnexion.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurSecurise.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Session.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Requete.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Routeur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Vue.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Configuration.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurAccueil.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Controleur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Modele.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/index.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Modele/Utilisateur.php" />
+        <option value="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurConnexion.php" />
       </list>
     </option>
   </component>
@@ -259,35 +357,7 @@
             <path>
               <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chapitre1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chapitre1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tp_espace_membre" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chapitre2" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chapitre2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tp1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tp_chat mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
@@ -295,12 +365,61 @@
               <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tp_MonBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tp_MonBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="05_MonBlog-authentifie" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tp_MonBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="05_MonBlog-authentifie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controleur" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tp_MonBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="05_MonBlog-authentifie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Modele" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tp_MonBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="05_MonBlog-authentifie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tp_MonBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="05_MonBlog-authentifie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="coursPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursPhp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapitre3_mvc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tp_MonBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="05_MonBlog-authentifie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Vue" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Inscription" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,6 +570,10 @@
       <workItem from="1504256368972" duration="13000" />
       <workItem from="1504256406472" duration="11287000" />
       <workItem from="1504279321529" duration="4227000" />
+      <workItem from="1504284866014" duration="3003000" />
+      <workItem from="1504693802039" duration="175000" />
+      <workItem from="1504694529835" duration="12000" />
+      <workItem from="1504694561169" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="Seb test">
       <created>1502285251532</created>
@@ -463,15 +586,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128481000" />
+    <option name="totallyTimeSpent" value="133136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29690832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.585084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -529,314 +653,137 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/README.md" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-mvc-objet - Copie/index.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/index.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Configuration.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Controleur.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Modele.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Requete.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Routeur.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Modele/Billet.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Framework/Vue.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Modele/Signalement.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Vue/gabarit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Routeur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Vue/Billet/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Controleur/ControleurBillet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Framework/Modele.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Modele/Billet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Modele/Commentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-final/Controleur/ControleurCommentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="100" lean-forward="false" selection-start-line="32" selection-start-column="100" selection-end-line="32" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Framework/Requete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Vue/Billet/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Vue/Accueil/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Controleur/ControleurAccueil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Controleur/ControleurBillet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentification/Config/dev.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Vue/Accueil/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Vue/Billet/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurSignaler.php" />
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-Pierre/Modele/Commentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Framework/Controleur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Framework/Routeur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurSecurise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Framework/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurBillet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Modele/Billet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurAccueil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_chat mvc/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre2/tp1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentification/Framework/Routeur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498563462571" expanded="true" signature="624:673" ph="SELECT pseud... membres" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Vue/Connexion/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Vue/Inscription/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Vue/Admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurCommentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Modele/Commentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurConnexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="86" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurCommentaire.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Modele/Commentaire.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Controleur/ControleurConnexion.php" />
     <entry file="file://$PROJECT_DIR$/chapitre1/tp_espace_membre/inscription.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <marker date="1498563159205" expanded="true" signature="642:680" ph="SELECT * FRO... membres" />
-            <marker date="1498563159205" expanded="true" signature="1079:1179" ph="INSERT INTO membres... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Modele/Utilisateur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="48" column="93" lean-forward="true" selection-start-line="48" selection-start-column="93" selection-end-line="48" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/MonBlog-authentifie/Modele/Utilisateur.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd8357cd-2fde-4a34-bb05-8ea153753da1/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Commentaire.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Utilisateur.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Admin/index.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Billet/index.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Connexion/index.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/erreur.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/gabarit.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurAccueil.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurAdmin.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurBillet.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurConnexion.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Controleur/ControleurSecurise.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Configuration.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Controleur.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Modele.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Requete.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Routeur.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Session.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Framework/Vue.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/Modele/Billet.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Modele/Billet.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurAccueil.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurAdmin.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurBillet.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurConnexion.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Controleur/ControleurSecurise.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Controleur.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Modele.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Requete.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Routeur.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Session.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Vue.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Framework/Configuration.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/Vue/Accueil/index.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/06 MonBlog-namespace/index.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05 MonBlog-authentifie/index.php" />
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurCommentaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurBillet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Vue/Inscription/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Vue/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Modele/Billet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Modele/Utilisateur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
+          <folding>
+            <marker date="1504695748063" expanded="true" signature="436:503" ph="SELECT UTIL_... T_UTILISATEUR" />
+            <marker date="1504695748063" expanded="true" signature="929:977" ph="SELECT * FRO... T_UTILISATEUR" />
+            <marker date="1504695748063" expanded="true" signature="1530:1592" ph="INSERT INTO T_UTILISATEUR... " />
+            <marker date="1504695748063" expanded="true" signature="2315:2437" ph="SELECT UTIL_... T_UTILISATEUR" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurConnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1504696023477" expanded="true" signature="2290:2338" ph="SELECT * FRO... T_UTILISATEUR" />
+            <marker date="1504696023477" expanded="true" signature="3076:3134" ph="INSERT INTO T_UTILISATEUR... " />
+          </folding>
         </state>
       </provider>
     </entry>
