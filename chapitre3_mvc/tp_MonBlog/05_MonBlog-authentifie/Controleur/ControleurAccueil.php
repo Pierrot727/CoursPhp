@@ -1,7 +1,8 @@
 <?php
+namespace Blog\Controleur;
 
-require_once 'Framework/Controleur.php';
-require_once 'Modele/Billet.php';
+use Blog\Framework\Controleur;
+use Blog\Modele\Billet;
 
 class ControleurAccueil extends Controleur {
 

@@ -1,6 +1,7 @@
 <?php
+namespace Blog\Modele;
 
-require_once 'Framework/Modele.php';
+use Blog\Framework\Modele;
 
 /**
  * Fournit les services d'accès aux genres musicaux 

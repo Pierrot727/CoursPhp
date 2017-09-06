@@ -1,6 +1,5 @@
 <?php
-
-require_once 'Configuration.php';
+namespace Blog\Framework;
 
 /**
  * Classe abstraite Modèle.
@@ -46,8 +45,8 @@ abstract class Modele {
             $login = Configuration::get("login");
             $mdp = Configuration::get("mdp");
             // Création de la connexion
-            self::$bdd = new PDO($dsn, $login, $mdp, 
-                    array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            self::$bdd = new \PDO($dsn, $login, $mdp,
+                    array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION));
         }
         return self::$bdd;
     }

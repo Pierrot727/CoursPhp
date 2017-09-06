@@ -1,4 +1,5 @@
 <?php
+namespace Blog\Framework;
 
 /**
  * Classe modélisant la session.

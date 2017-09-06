@@ -1,7 +1,6 @@
 <?php
+namespace Blog\Framework;
 
-require_once 'Requete.php';
-require_once 'Vue.php';
 
 /**
  * Classe abstraite Controleur
@@ -61,7 +60,7 @@ abstract class Controleur {
     {
         // Détermination du nom du fichier vue à partir du nom du contrôleur actuel
         $classeControleur = get_class($this);
-        $controleur = str_replace("Controleur", "", $classeControleur);
+        $controleur = str_replace("Blog\\Controleur\\Controleur", "", $classeControleur);
         
         // Instanciation et génération de la vueF
         $vue = new Vue($this->action, $controleur);

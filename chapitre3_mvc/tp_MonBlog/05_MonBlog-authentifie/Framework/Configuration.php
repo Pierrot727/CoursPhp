@@ -1,4 +1,5 @@
 <?php
+namespace Blog\Framework;
 
 /**
  * Classe de gestion des paramètres de configuration

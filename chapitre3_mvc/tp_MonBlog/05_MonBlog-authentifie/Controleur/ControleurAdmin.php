@@ -1,7 +1,10 @@
 <?php
-require_once 'ControleurSecurise.php';
-require_once 'Modele/Billet.php';
-require_once 'Modele/Commentaire.php';
+namespace Blog\Controleur;
+
+use Blog\Modele\Billet;
+use Blog\Modele\Commentaire;
+
+
 /**
  * Contrôleur des actions d'administration
  *

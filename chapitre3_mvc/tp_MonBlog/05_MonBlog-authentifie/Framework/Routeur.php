@@ -1,8 +1,8 @@
 <?php
+namespace Blog\Framework;
 
-require_once 'Controleur.php';
-require_once 'Requete.php';
-require_once 'Vue.php';
+
+
 
 /*
  * Classe de routage des requêtes entrantes.
@@ -13,6 +13,7 @@ require_once 'Vue.php';
  * @version 1.0
  * @author Baptiste Pesquet
  */
+
 class Routeur {
 
     /**
@@ -30,7 +31,7 @@ class Routeur {
 
             $controleur->executerAction($action);
         }
-        catch (Exception $e) {
+        catch (\Exception $e) {
             $this->gererErreur($e);
         }
     }
@@ -54,17 +55,15 @@ class Routeur {
         }
         // Création du nom du fichier du contrôleur
         // La convention de nommage des fichiers controleurs est : Controleur/Controleur<$controleur>.php
-        $classeControleur = "Controleur" . $controleur;
-        $fichierControleur = "Controleur/" . $classeControleur . ".php";
-        if (file_exists($fichierControleur)) {
+        $classeControleur = "Blog\\Controleur\\Controleur" . $controleur;
+        try {
             // Instanciation du contrôleur adapté à la requête
-            require($fichierControleur);
             $controleur = new $classeControleur();
             $controleur->setRequete($requete);
             return $controleur;
         }
-        else {
-            throw new Exception("Fichier '$fichierControleur' introuvable");
+        catch (\Exception $e){
+            throw new \Exception("Fichier '$fichierControleur' introuvable");
         }
     }
 
@@ -87,7 +86,7 @@ class Routeur {
      * 
      * @param Exception $exception Exception qui s'est produite
      */
-    private function gererErreur(Exception $exception) {
+    private function gererErreur(\Exception $exception) {
         $vue = new Vue('erreur');
         $vue->generer(array('msgErreur' => $exception->getMessage()));
     }

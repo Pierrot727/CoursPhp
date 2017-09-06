@@ -1,5 +1,7 @@
 <?php
-require_once 'Framework/Controleur.php';
+namespace Blog\Controleur;
+
+use Blog\Framework\Controleur;
 /**
  * Classe parente des contrôleurs soumis à authentification
  *

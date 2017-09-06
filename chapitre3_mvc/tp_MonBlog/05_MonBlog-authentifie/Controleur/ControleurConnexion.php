@@ -1,6 +1,8 @@
 <?php
-require_once 'Framework/Controleur.php';
-require_once 'Modele/Utilisateur.php';
+namespace Blog\Controleur;
+
+use Blog\Framework\Controleur;
+use Blog\Modele\Utilisateur;
 
 class ControleurConnexion extends Controleur
 {
@@ -23,7 +25,7 @@ class ControleurConnexion extends Controleur
             $login = $this->requete->getParametre("login");
             $mdp = $this->requete->getParametre("mdp");
             if ($this->utilisateur->connecter($login, $mdp)) {
-                $utilisateur = $this->utilisateur->getUtilisateur($login, $mdp);
+                $utilisateur = $this->utilisateur->getUtilisateur($login);
                 $this->requete->getSession()->setAttribut("idUtilisateur",
                     $utilisateur['idUtilisateur']);
                 $this->requete->getSession()->setAttribut("login",
@@ -43,57 +45,4 @@ class ControleurConnexion extends Controleur
         $this->rediriger("accueil");
     }
 
-
-    /**
-     * Modification d'un utilisateur existant ou création d'un nouveau - pierre
-     */
-    public function modification()
-    {
-        // Si login et mdp et verif mdp existe alors ...
-        if ($this->requete->existeParametre("login") &&
-            $this->requete->existeParametre("mdp") && $this->requete->existeParametre("verif_mdp")) {
-
-            //Recuperation des login mdp et verif_mdp
-            $login = $this->requete->getParametre("login");
-            $mdp = $this->requete->getParametre("mdp");
-            $verif_mdp = $this->requete->getParametre("verif_mdp");
-
-            // Si les 2 mots de passe sont identiques
-            if ($mdp == $verif_mdp) {
-
-                // Hachage du mot de passe
-                $pass_hache = password_hash($mdp, PASSWORD_BCRYPT);
-
-                //Verif si membre existe
-                $login = $sql = 'SELECT * FROM T_UTILISATEUR WHERE UTIL_LOGIN = ?';
-                $login = $this->executerRequete($sql, array($login));
-
-                //Si le login existe déja, mise à jour
-                if (!$login->fetch()) {
-
-                    //Insertion
-                    $requ = $sql = 'UPDATE INTO T_UTILISATEUR(login, mdp) VALUES(:login, :mdp)';
-                    $requ->execute(array(
-                        'login' => $_POST['login'],
-                        'mdp' => $pass_hache));
-                } else //Si le login n'exite pas, création d'un nouvellle utilisateur
-                {
-                    $this->genererVue(array('msgErreur' =>
-                        'Nouvelle utilisateur crées'), "index");
-
-                    //Insertion
-                    $reqi = $sql = 'INSERT INTO T_UTILISATEUR(login, mdp) VALUES(:login, :mdp)';
-                    $reqi->execute(array(
-                        'login' => $_POST['login'],
-                        'mdp' => $pass_hache));
-                };
-            } else {
-                $this->genererVue(array('msgErreur' =>
-                    'Les mots de passes ne sont pas identiques'), "index");
-
-            };
-
-        };
-
-    }
 }

@@ -1,8 +1,10 @@
 <?php
+namespace Blog\Controleur;
 
-require_once 'Framework/Controleur.php';
-require_once 'Modele/Billet.php';
-require_once 'Modele/Commentaire.php';
+use Blog\Framework\Controleur;
+use Blog\Modele\Billet;
+use Blog\Modele\Commentaire;
+
 /**
  * Contrôleur des actions liées aux billets
  *

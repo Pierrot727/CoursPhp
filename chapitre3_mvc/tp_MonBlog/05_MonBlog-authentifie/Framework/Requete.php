@@ -1,6 +1,5 @@
 <?php
-
-require_once 'Session.php';
+namespace Blog\Framework;
 
 /**
  * Classe modélisant une requête HTTP entrante.

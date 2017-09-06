@@ -1,6 +1,8 @@
 <?php
+namespace Blog\Framework;
 
-require_once 'Configuration.php';
+
+
 
 /**
  * Classe modélisant une vue
@@ -58,7 +60,7 @@ class Vue {
      * @param string $fichier Chemin du fichier vue à générer
      * @param array $donnees Données nécessaires à la génération de la vue
      * @return string Résultat de la génération de la vue
-     * @throws Exception Si le fichier vue est introuvable
+     * @throws \Exception Si le fichier vue est introuvable
      */
     private function genererFichier($fichier, $donnees) {
         if (file_exists($fichier)) {
@@ -73,7 +75,7 @@ class Vue {
             return ob_get_clean();
         }
         else {
-            throw new Exception("Fichier '$fichier' introuvable");
+            throw new \Exception("Fichier '$fichier' introuvable");
         }
     }
 
