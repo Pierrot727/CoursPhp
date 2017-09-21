@@ -1,4 +1,5 @@
 <?php
+
 namespace Blog\Controleur;
 
 use Blog\Framework\Controleur;
@@ -22,21 +23,24 @@ class ControleurConnexion extends Controleur
     {
         if ($this->requete->existeParametre("login") &&
             $this->requete->existeParametre("mdp")) {
+
             $login = $this->requete->getParametre("login");
             $mdp = $this->requete->getParametre("mdp");
             if ($this->utilisateur->connecter($login, $mdp)) {
                 $utilisateur = $this->utilisateur->getUtilisateur($login);
                 $this->requete->getSession()->setAttribut("idUtilisateur",
                     $utilisateur['idUtilisateur']);
-                $this->requete->getSession()->setAttribut("login",
+                    $this->requete->getSession()->setAttribut("login",
                     $utilisateur['login']);
                 $this->rediriger("admin");
-            } else
+            } else {
                 $this->genererVue(array('msgErreur' =>
                     'Login ou mot de passe incorrects'), "index");
-        } else
+            }
+        } else {
             throw new Exception(
                 "Action impossible : login ou mot de passe non défini");
+        }
     }
 
     public function deconnecter()

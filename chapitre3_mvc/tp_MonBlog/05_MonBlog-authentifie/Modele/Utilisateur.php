@@ -37,46 +37,6 @@ class Utilisateur extends Modele
         };
     }
 
-    /*
-    //Inscription
-    public function changerPass($login, $mdp, $verif_mdp)
-    {
-        if ($mdp == $verif_mdp) {
-
-            // Hachage du mot de passe
-            $pass_hache = password_hash($mdp, PASSWORD_BCRYPT);
-
-            //Verif si membre existe
-            $login = $sql = "SELECT * FROM T_UTILISATEUR WHERE UTIL_LOGIN = ?";
-            $login = $this->executerRequete($sql, array($login));
-
-            if (!$login->fetch()) {
-
-                //Insertion
-                $req = $sql = "UPDATE INTO T_UTILISATEUR(login, mdp) VALUES(:login, :mdp)";
-                $req->execute(array(
-                    'login' => $_POST['login'],
-                    'mdp' => $pass_hache));
-            } else {
-                $this->genererVue(array('msgErreur' =>
-                    'Nouvelle utilisateur crées'), "index");
-
-                //Insertion
-                $req = $sql = "INSERT INTO T_UTILISATEUR(login, mdp) WHERE login = ?, mdp = ?";
-                $req = $this->executerRequete($sql, array(
-                    'login' => $login,
-                    'mdp' => $pass_hache));
-            };
-
-        else {
-                $this->genererVue(array('msgErreur' =>
-                    'Les mots de passes ne sont pas identiques'), "index");
-
-            };
-
-        }
-
-*/
     /**
      * Renvoie un utilisateur existant dans la BD
      *
@@ -102,70 +62,21 @@ fournis");
     /**
      * Modification d'un utilisateur existant - pierre
      */
-    public function modificationPassword()
+    public function modificationPassword($id, $mdp)
     {
-        // Si login et mdp et verif mdp existe alors ...
-        if ($this->requete->existeParametre("mdp") && $this->requete->existeParametre("verif_mdp")) {
 
-            //Recuperation des login mdp et verif_mdp
-            $mdp = $this->requete->getParametre("mdp");
-            $verif_mdp = $this->requete->getParametre("verif_mdp");
+        $pass_hache = password_hash($mdp, PASSWORD_BCRYPT);
 
-            // Si les 2 mots de passe sont identiques
-            if ($mdp == $verif_mdp) {
 
-                // Hachage du mot de passe
-                $pass_hache = password_hash($mdp, PASSWORD_BCRYPT);
+        $sql = 'UPDATE T_UTILISATEUR SET UTIL_MDP= :mdp WHERE UTIL_ID = :id';
 
-                //Insertion
-                $sql = 'UPDATE INTO T_UTILISATEUR(login, mdp) VALUES(:login, :mdp)';
-                $this->executeRequete(array(
-                    'mdp' => $pass_hache));
-            } else {
-                $this->genererVue(array('msgErreur' =>
-                    'Les mots de passes ne sont pas identiques'), "index");
-
-            };
-
-        };
+       return $this->executerRequete($sql,array(
+            'id'=>$id,
+            'mdp' => $pass_hache
+        ))->rowCount() == 1;
     }
 
-    /**
-     * Création d'un utilisateur existant - pierre
-     *
-    public function creationUtilisateur()
-    {
-        // Si login et mdp et verif mdp existe alors ...
-        if ($this->requete->existeParametre("login") &&
-            $this->requete->existeParametre("mdp") && $this->requete->existeParametre("verif_mdp")
-        $this->requete->existeParametre("email") && this->requete->existeParametre("dateNaissance")) {
 
-        //Recuperation des login mdp et verif_mdp
-        $login = $this->requete->getParametre("login");
-        $mdp = $this->requete->getParametre("mdp");
-        $verif_mdp = $this->requete->getParametre("verif_mdp");
-
-        // Si les 2 mots de passe sont identiques
-        if ($mdp == $verif_mdp) {
-
-            // Hachage du mot de passe
-            $pass_hache = password_hash($mdp, PASSWORD_BCRYPT);
-
-            //Insertion
-            $sql = 'INSERT INTO T_UTILISATEUR(login, mdp,email,dateNaissance) VALUES(:login, :mdp, :email, dateNaissance)';
-            $this->executeRequete(array(
-                'login' => $_POST['login'],
-                'mdp' => $pass_hache,
-                'email' => $_POST['email'],
-                'dateNaissance' => $_POST['dateNaissance']));
-        } else {
-            $this->genererVue(array('msgErreur' =>
-                'Les mots de passes ne sont pas identiques'), "index");
-
-        };
-
-    };
-    }*/
 
 
 }

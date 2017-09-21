@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <base href="<?= $racineWeb ?>" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link rel="stylesheet" href="Contenu/style.css" />
         <title><?= $titre ?></title>
     </head>
@@ -16,7 +17,7 @@
                 <?= $contenu ?>
             </div> <!-- #contenu -->
             <footer id="piedBlog">
-                Blog réalisé avec PHP, HTML5 et CSS.
+                Blog réalisé avec PHP, HTML5 et CSS.  <a href="admin">Administration</a>
             </footer>
         </div> <!-- #global -->
     </body>
