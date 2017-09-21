@@ -26,11 +26,6 @@ class Billet extends Modele {
     }
 
 
-    public function countBillet(){
-        // ACODER
-}
-
-
     /** Renvoie les informations sur un billet
      * 
      * @param int $id L'identifiant du billet
@@ -59,4 +54,15 @@ class Billet extends Modele {
         $ligne = $resultat->fetch(); // Le résultat comporte toujours 1 ligne
         return $ligne['nbBillets'];
     }
+
+    public function creationBillet ($dateBillet, $titreBillet, $contenuBillet) {
+        $sql = 'INSERT INTO T_BILLET SET BIL_DATE= :dateBillet, BIL_TITRE= :titreBillet, BIL_CONTENU= :contenuBillet';
+        return $this->executerRequete($sql, array(
+                'dateBillet' => $dateBillet,
+                'titreBillet' => $titreBillet,
+                'contenuBillet' => $contenuBillet
+            ))->rowCount() == 1;
+    }
+
+    
 }

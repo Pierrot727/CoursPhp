@@ -34,9 +34,13 @@ class ControleurAdmin extends ControleurSecurise
         $nbBillets = $this->billet->getNombreBillets();
         $nbCommentaires = $this->commentaire->getNombreCommentaires();
         $nbSignalements = $this->commentaire->getNombreSignalements();
+        //Ajout
+        $billets = $this->billet->getBillets();
+
+        //Fin de l'ajout
         $login = $this->requete->getSession()->getAttribut("login");
         $this->genererVue(array('nbBillets' => $nbBillets,
-            'nbCommentaires' => $nbCommentaires, 'nbSignalements' => $nbSignalements, 'login' => $login));
+            'nbCommentaires' => $nbCommentaires, 'nbSignalements' => $nbSignalements, 'billets' => $billets, 'login' => $login));
     }
 
     public function modifierMdp()
@@ -64,8 +68,8 @@ class ControleurAdmin extends ControleurSecurise
     {
         $param = array();
         if ($this->requete->existeParametre("pseudo") && $this->requete->existeParametre("nom") && $this->requete->existeParametre("prenom")
-                    && $this->requete->existeParametre("dateNaissance") && $this->requete->existeParametre("email") && $this->requete->existeParametre("mdp")
-                                && $this->requete->existeParametre("verif_mdp")) {
+            && $this->requete->existeParametre("dateNaissance") && $this->requete->existeParametre("email") && $this->requete->existeParametre("mdp")
+            && $this->requete->existeParametre("verif_mdp")) {
             $mdp = $this->requete->getParametre('mdp');
             $verifMdp = $this->requete->getParametre('verif_mdp');
             $pseudo = $this->requete->getParametre('pseudo');
@@ -75,13 +79,25 @@ class ControleurAdmin extends ControleurSecurise
             $email = $this->requete->getParametre('email');
 
             if ($mdp === $verifMdp) {
-                $this->utilisateur->inscription( $pseudo, $mdp, $nom, $prenom, $dateNaissance, $email);
+                $this->utilisateur->inscription($pseudo, $mdp, $nom, $prenom, $dateNaissance, $email);
                 $this->rediriger("admin");
             } else {
                 $param['msgErreur'] = 'Mot de passe non identique';
             }
         }
         $this->genererVue($param);
+    }
+
+    public function creationBillet()
+    {
+        if ($this->requete->existeParametre("dateBillet") && $this->requete->existeParametre("titreBillet") && $this->requete->existeParametre("contenuBillet")) {
+            $dateBillet = $this->requete->getParametre('dateBillet');
+            $titreBillet = $this->requete->getParametre('titreBillet');
+            $contenuBillet = $this->requete->getParametre('contenuBillet');
+            $this->billet->creationBillet($dateBillet, $titreBillet, $contenuBillet);
+            $this->rediriger("admin");
+        }
+        $this->genererVue();
     }
 
 }

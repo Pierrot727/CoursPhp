@@ -18,6 +18,9 @@ class Vue {
     /** Titre de la vue (défini dans le fichier vue) */
     private $titre;
 
+    /** Titre de la vue (défini dans le fichier vue) */
+    private $lien;
+
     /**
      * Constructeur
      * 
@@ -48,7 +51,7 @@ class Vue {
         $racineWeb = Configuration::get("racineWeb", "/");
         // Génération du gabarit commun utilisant la partie spécifique
         $vue = $this->genererFichier('Vue/gabarit.php',
-                array('titre' => $this->titre, 'contenu' => $contenu,
+                array('titre' => $this->titre, 'contenu' => $contenu, 'lien' => $this->lien,
                     'racineWeb' => $racineWeb));
         // Renvoi de la vue générée au navigateur
         echo $vue;

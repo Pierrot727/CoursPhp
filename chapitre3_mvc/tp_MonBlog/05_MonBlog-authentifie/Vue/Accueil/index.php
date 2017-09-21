@@ -10,6 +10,9 @@
             <time><?= $this->nettoyer($billet['date']) ?></time>
         </header>
         <p><?= $this->nettoyer($billet['contenu']) ?></p>
+
     </article>
     <hr />
 <?php endforeach; ?>
+
+<?php $this->lien = "<a href='email'>M'envoyer un email</a> - <a href='admin'>Administration</a>"; ?>

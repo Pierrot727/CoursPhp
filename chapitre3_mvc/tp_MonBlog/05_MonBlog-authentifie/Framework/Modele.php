@@ -30,9 +30,9 @@ abstract class Modele {
             $result = self::getBdd()->prepare($sql);
             foreach($params as $key => $value) {
                 if (is_numeric($value)) {
-                    $result->bindValue($key, $value, PDO::PARAM_INT);
+                    $result->bindValue($key, $value, \PDO::PARAM_INT);
                 } else {
-                    $result->bindValue($key, $value, PDO::PARAM_STR);
+                    $result->bindValue($key, $value, \PDO::PARAM_STR);
                 }
             }
             $result->execute();
