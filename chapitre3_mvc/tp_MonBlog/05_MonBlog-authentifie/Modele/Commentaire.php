@@ -19,6 +19,14 @@ class Commentaire extends Modele {
         return $commentaires;
     }
 
+    public function countCommentairesperBillet($idBillet){
+        $sql = 'select COM_ID as id, COM_DATE as date,'
+            . ' COM_AUTEUR as auteur, COM_CONTENU as contenu from T_COMMENTAIRE'
+            . ' where BIL_ID=?';
+        $nombreCommentairesperBillet = $this->executerRequete($sql, array($idBillet))->fetch();
+        return $nombreCommentairesperBillet;
+    }
+
     public function getCommentaire($idCommentaire) {
         $sql = 'select COM_ID as id, COM_DATE as date, BIL_ID as bil_id,'
             . ' COM_AUTEUR as auteur, COM_CONTENU as contenu from T_COMMENTAIRE'

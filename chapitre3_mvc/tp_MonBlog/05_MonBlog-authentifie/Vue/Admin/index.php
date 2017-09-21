@@ -22,7 +22,7 @@ Ce blog comporte <?= $this->nettoyer($nbBillets) ?> billet(s) et
         <th><time><?= $this->nettoyer($billet['date']) ?></time></th>
         <th><?= $this->nettoyer($billet['contenu']) ?></th>
         <th>Oui (4)</th>
-        <th>Non</th>
+        <th>-</th>
     </tr>
 
 <?php endforeach; ?>

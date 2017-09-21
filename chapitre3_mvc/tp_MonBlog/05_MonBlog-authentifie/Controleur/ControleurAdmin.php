@@ -35,7 +35,7 @@ class ControleurAdmin extends ControleurSecurise
         $nbCommentaires = $this->commentaire->getNombreCommentaires();
         $nbSignalements = $this->commentaire->getNombreSignalements();
         //Ajout
-        $billets = $this->billet->getBillets();
+        $billets = $this->billet->getBilletsTronques();
 
         //Fin de l'ajout
         $login = $this->requete->getSession()->getAttribut("login");

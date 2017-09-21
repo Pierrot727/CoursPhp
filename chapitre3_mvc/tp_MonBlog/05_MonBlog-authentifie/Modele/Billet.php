@@ -25,6 +25,18 @@ class Billet extends Modele {
         return $billets;
     }
 
+    /*
+     * Renvoie le début tronqué d'un billet pour l'admin
+     */
+    public function getBilletsTronques($page = 1) {
+
+        $sql = 'select BIL_ID as id, BIL_DATE as date,'
+            . ' BIL_TITRE as titre, LEFT (BIL_CONTENU,50) as contenu from T_BILLET'
+            . ' order by BIL_ID desc';
+        $billetsTronques = $this->executerRequete($sql,array(), self::MAX_PER_PAGE, ($page-1) * self::MAX_PER_PAGE);
+        return $billetsTronques;
+    }
+
 
     /** Renvoie les informations sur un billet
      * 
@@ -64,5 +76,5 @@ class Billet extends Modele {
             ))->rowCount() == 1;
     }
 
-    
+
 }
