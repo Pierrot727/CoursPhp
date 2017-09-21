@@ -6,5 +6,5 @@ Ce blog comporte <?= $this->nettoyer($nbBillets) ?> billet(s) et
 </br>
 Gestion :
 <a id="lienPass" href="admin/modifierMdp">Changer le mot de passe</a>
-<a id="lienIns" href="inscription">Ajouter un nouvel utilisateur</a>
+<a id="lienIns" href="admin/inscription">Ajouter un nouvel utilisateur</a>
 <a id="lienDeco" href="connexion/deconnecter">Se déconnecter</a>

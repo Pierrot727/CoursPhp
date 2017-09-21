@@ -46,7 +46,7 @@ class Utilisateur extends Modele
      * @throws \Exception Si aucun utilisateur ne correspond aux paramètres
      */
     public
-    function getUtilisateur($login, $mdp)
+    function getUtilisateur($login)
     {
         $sql = "SELECT UTIL_ID AS idUtilisateur, UTIL_LOGIN AS login, UTIL_MDP AS mdp
 FROM T_UTILISATEUR WHERE UTIL_LOGIN=?";
@@ -70,13 +70,51 @@ fournis");
 
         $sql = 'UPDATE T_UTILISATEUR SET UTIL_MDP= :mdp WHERE UTIL_ID = :id';
 
-       return $this->executerRequete($sql,array(
-            'id'=>$id,
-            'mdp' => $pass_hache
-        ))->rowCount() == 1;
+        return $this->executerRequete($sql, array(
+                'id' => $id,
+                'mdp' => $pass_hache
+            ))->rowCount() == 1;
     }
 
+    /**
+     *
+     * Enregistrement d'un utilisateur
+     * @param string $login Login
+     * @param string $mdp
+     * @param string $nom
+     * @param string $prenom
+     * @param string $dateNaissance
+     * @param string $email
+     * @return bool
+     */
+    public function inscription($login, $mdp, $nom, $prenom, $dateNaissance, $email)
+    {
+        $pass_hache = password_hash($mdp, PASSWORD_BCRYPT);
+        $email_verifie = $email;
+        $sql = 'INSERT INTO T_UTILISATEUR SET UTIL_LOGIN= :login, UTIL_MDP= :mdp, UTIL_NOM= :nom, UTIL_PRENOM= :prenom, UTIL_DNAISSANCE= :dateNaissance, UTIL_EMAIL= :email';
+        return $this->executerRequete($sql, array(
+                'login' => $login,
+                'mdp' => $pass_hache,
+                'nom' => $nom,
+                'prenom' => $prenom,
+                'dateNaissance' => $dateNaissance,
+                'email' => $email_verifie
+            ))->rowCount() == 1;
 
+    }
 
+//    /*
+//     *
+//     */
+//    public function verifier_email ($email) {
+//
+//        //Vérication regex si email contient un "@" $1 et un "." $2 et que les trois derniers caractéres sont alphanumérique $3, et i pour ignorer la casse
+//        if (preg_match("#.+(@).+(\.+)\w{2,4}$#", $email)) {
+//            return
+//        } else {
+//
+//        }
+//    }
+//*/
 
 }

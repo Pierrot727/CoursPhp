@@ -56,9 +56,13 @@ abstract class Controleur {
      * 
      * @param array $donneesVue Données nécessaires pour la génération de la vue
      */
-    protected function genererVue($donneesVue = array())
+    protected function genererVue($donneesVue = array(), $action = null)
     {
         // Détermination du nom du fichier vue à partir du nom du contrôleur actuel
+        if($action)
+        {
+            $this->action = $action;
+        }
         $classeControleur = get_class($this);
         $controleur = str_replace("Blog\\Controleur\\Controleur", "", $classeControleur);
         

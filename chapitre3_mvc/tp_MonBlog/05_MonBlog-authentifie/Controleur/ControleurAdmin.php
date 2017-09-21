@@ -43,18 +43,44 @@ class ControleurAdmin extends ControleurSecurise
     {
         $param = array();
 
-        if ($mdp = $this->requete->existeParametre("mdp") &&
-            $verifMdp = $this->requete->existeParametre("verif_mdp")) {
+        if ($this->requete->existeParametre("mdp") &&
+            $this->requete->existeParametre("verif_mdp")) {
+            $mdp = $this->requete->getParametre('mdp');
+            $verifMdp = $this->requete->getParametre('verif_mdp');
             if ($mdp === $verifMdp) {
                 $id = $this->requete->getSession()->getAttribut("idUtilisateur");
                 $this->utilisateur->modificationPassword($id, $mdp);
                 $this->rediriger("admin");
             } else {
-                $param['msgErreur'] = 'Mot de passe non similaire';
+                $param['msgErreur'] = 'Mot de passe non identique';
             }
 
         }
 
+        $this->genererVue($param);
+    }
+
+    public function inscription()
+    {
+        $param = array();
+        if ($this->requete->existeParametre("pseudo") && $this->requete->existeParametre("nom") && $this->requete->existeParametre("prenom")
+                    && $this->requete->existeParametre("dateNaissance") && $this->requete->existeParametre("email") && $this->requete->existeParametre("mdp")
+                                && $this->requete->existeParametre("verif_mdp")) {
+            $mdp = $this->requete->getParametre('mdp');
+            $verifMdp = $this->requete->getParametre('verif_mdp');
+            $pseudo = $this->requete->getParametre('pseudo');
+            $nom = $this->requete->getParametre('nom');
+            $prenom = $this->requete->getParametre('prenom');
+            $dateNaissance = $this->requete->getParametre('dateNaissance');
+            $email = $this->requete->getParametre('email');
+
+            if ($mdp === $verifMdp) {
+                $this->utilisateur->inscription( $pseudo, $mdp, $nom, $prenom, $dateNaissance, $email);
+                $this->rediriger("admin");
+            } else {
+                $param['msgErreur'] = 'Mot de passe non identique';
+            }
+        }
         $this->genererVue($param);
     }
 

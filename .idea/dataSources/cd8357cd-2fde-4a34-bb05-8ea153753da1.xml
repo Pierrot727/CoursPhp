@@ -104,7 +104,26 @@
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="30" parent="12" name="PRIMARY">
+    <column id="30" parent="12" name="UTIL_NOM">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="12" name="UTIL_PRENOM">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="12" name="UTIL_DNAISSANCE">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="33" parent="12" name="UTIL_EMAIL">
+      <Position>7</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="34" parent="12" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>UTIL_ID</ColNames>
       <Primary>1</Primary>

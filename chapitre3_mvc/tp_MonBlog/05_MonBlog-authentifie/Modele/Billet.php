@@ -10,17 +10,25 @@ use Blog\Framework\Modele;
  */
 class Billet extends Modele {
 
+    const MAX_PER_PAGE = 5;
+
     /** Renvoie la liste des billets du blog
      * 
      * @return PDOStatement La liste des billets
      */
-    public function getBillets() {
+    public function getBillets($page = 1) {
+
         $sql = 'select BIL_ID as id, BIL_DATE as date,'
                 . ' BIL_TITRE as titre, BIL_CONTENU as contenu from T_BILLET'
                 . ' order by BIL_ID desc';
-        $billets = $this->executerRequete($sql);
+        $billets = $this->executerRequete($sql,array(), self::MAX_PER_PAGE, ($page-1) * self::MAX_PER_PAGE);
         return $billets;
     }
+
+
+    public function countBillet(){
+        // ACODER
+}
 
 
     /** Renvoie les informations sur un billet

@@ -1,6 +1,6 @@
 <?php $this->titre = "Mon Blog - Ajouter un utilisateur" ?>
     <p>Ajouter un utilisateur</p>
-    <form action="modification" method="post">
+    <form action="admin/inscription" method="post">
         <input name="pseudo" placeholder="Entrez votre pseudo"
                required>
         <input name="nom" placeholder="Entrez votre nom"

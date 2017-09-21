@@ -22,15 +22,22 @@ abstract class Modele {
      * @param array $params Paramètres de la requête
      * @return PDOStatement Résultats de la requête
      */
-    protected function executerRequete($sql, $params = null) {
+    protected function executerRequete($sql, $params = null)
+    {
         if ($params == null) {
-            $resultat = self::getBdd()->query($sql);   // exécution directe
+            $result = self::getBdd()->query($sql);
+        } else {
+            $result = self::getBdd()->prepare($sql);
+            foreach($params as $key => $value) {
+                if (is_numeric($value)) {
+                    $result->bindValue($key, $value, PDO::PARAM_INT);
+                } else {
+                    $result->bindValue($key, $value, PDO::PARAM_STR);
+                }
+            }
+            $result->execute();
         }
-        else {
-            $resultat = self::getBdd()->prepare($sql); // requête préparée
-            $resultat->execute($params);
-        }
-        return $resultat;
+        return $result;
     }
 
     /**
