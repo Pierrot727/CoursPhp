@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="Seb test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurAdmin.php" afterPath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Controleur/ControleurAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Framework/Modele.php" afterPath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Framework/Modele.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Framework/Vue.php" afterPath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Framework/Vue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Modele/Billet.php" afterPath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Modele/Billet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Vue/Admin/index.php" afterPath="$PROJECT_DIR$/chapitre3_mvc/tp_MonBlog/05_MonBlog-authentifie/Vue/Admin/index.php" />
-    </list>
+    <list default="true" id="bac19662-e68c-4b4f-866b-e9b014f0ed93" name="Default" comment="Seb test" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -502,7 +495,7 @@
       <workItem from="1505980346590" duration="31743000" />
       <workItem from="1506091812893" duration="5612000" />
       <workItem from="1506186405479" duration="4197000" />
-      <workItem from="1506203241967" duration="10000" />
+      <workItem from="1506203241967" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="Seb test">
       <created>1502285251532</created>
@@ -515,7 +508,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189350000" />
+    <option name="totallyTimeSpent" value="189809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
