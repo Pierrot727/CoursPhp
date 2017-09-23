@@ -1,53 +1,58 @@
 <?php
+
 namespace Blog\Modele;
 
 use Blog\Framework\Modele;
 
 /**
- * Fournit les services d'accès aux genres musicaux 
- * 
+ * Fournit les services d'accès aux genres musicaux
+ *
  * @author Baptiste Pesquet
  */
-class Billet extends Modele {
+class Billet extends Modele
+{
 
     const MAX_PER_PAGE = 5;
 
     /** Renvoie la liste des billets du blog
-     * 
+     *
      * @return PDOStatement La liste des billets
      */
-    public function getBillets($page = 1) {
+    public function getBillets($page = 1)
+    {
 
         $sql = 'select BIL_ID as id, BIL_DATE as date,'
-                . ' BIL_TITRE as titre, BIL_CONTENU as contenu from T_BILLET'
-                . ' order by BIL_ID desc';
-        $billets = $this->executerRequete($sql,array(), self::MAX_PER_PAGE, ($page-1) * self::MAX_PER_PAGE);
+            . ' BIL_TITRE as titre, BIL_CONTENU as contenu from T_BILLET'
+            . ' order by BIL_ID desc';
+        $billets = $this->executerRequete($sql, array(), self::MAX_PER_PAGE, ($page - 1) * self::MAX_PER_PAGE);
         return $billets;
     }
 
     /*
-     * Renvoie le début tronqué d'un billet pour l'admin
+     * Renvoie le début tronqué d'un billet pour l'admin (initialement) la valeur de la troncature est $limit
      */
-    public function getBilletsTronques($page = 1) {
-
+    public function getBilletsTronques($page = 1, $limit = 50)
+    {
+        $valeur = intval($limit);
         $sql = 'select BIL_ID as id, BIL_DATE as date,'
-            . ' BIL_TITRE as titre, LEFT (BIL_CONTENU,50) as contenu from T_BILLET'
+            . ' BIL_TITRE as titre, LEFT (BIL_CONTENU,' . $valeur . ') as contenu from T_BILLET'
             . ' order by BIL_ID desc';
-        $billetsTronques = $this->executerRequete($sql,array(), self::MAX_PER_PAGE, ($page-1) * self::MAX_PER_PAGE);
+        $billetsTronques = $this->executerRequete($sql, array(), self::MAX_PER_PAGE, ($page - 1) * self::MAX_PER_PAGE);
         return $billetsTronques;
     }
 
 
     /** Renvoie les informations sur un billet
-     * 
+     *
      * @param int $id L'identifiant du billet
      * @return array Le billet
      * @throws Exception Si l'identifiant du billet est inconnu
      */
-    public function getBillet($idBillet) {
+    public function getBillet($idBillet)
+    {
         $sql = 'select BIL_ID as id, BIL_DATE as date,'
-                . ' BIL_TITRE as titre, BIL_CONTENU as contenu from T_BILLET'
-                . ' where BIL_ID=?';
+            . ' BIL_TITRE as titre, BIL_CONTENU as contenu from T_BILLET'
+            . ' where BIL_ID=?';
         $billet = $this->executerRequete($sql, array($idBillet));
         if ($billet->rowCount() > 0)
             return $billet->fetch();  // Accès à la première ligne de résultat
@@ -60,14 +65,16 @@ class Billet extends Modele {
      *
      * @return int Le nombre de billets
      */
-    public function getNombreBillets() {
-        $sql = 'select count(*) as nbBillets from T_BILLET';
+    public function getNombreBillets()
+    {
+        $sql = 'SELECT count(*) AS nbBillets FROM T_BILLET';
         $resultat = $this->executerRequete($sql);
         $ligne = $resultat->fetch(); // Le résultat comporte toujours 1 ligne
         return $ligne['nbBillets'];
     }
 
-    public function creationBillet ($dateBillet, $titreBillet, $contenuBillet) {
+    public function creationBillet($dateBillet, $titreBillet, $contenuBillet)
+    {
         $sql = 'INSERT INTO T_BILLET SET BIL_DATE= :dateBillet, BIL_TITRE= :titreBillet, BIL_CONTENU= :contenuBillet';
         return $this->executerRequete($sql, array(
                 'dateBillet' => $dateBillet,
@@ -76,5 +83,12 @@ class Billet extends Modele {
             ))->rowCount() == 1;
     }
 
+    public function supprimerBillet($idBillet)
+    {
+        $sql = 'DELETE FROM `t_billet` WHERE BIL_ID = :numeroBillet';
+        return $this->executerRequete($sql, array(
+                'numeroBillet' => $idBillet,
+            ))->rowCount() == 1;
+    }
 
 }

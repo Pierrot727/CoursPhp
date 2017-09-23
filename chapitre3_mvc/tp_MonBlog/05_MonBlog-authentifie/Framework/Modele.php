@@ -1,4 +1,5 @@
 <?php
+
 namespace Blog\Framework;
 
 /**
@@ -9,18 +10,20 @@ namespace Blog\Framework;
  * @version 1.0
  * @author Baptiste Pesquet
  */
-abstract class Modele {
+abstract class Modele
+{
 
-    /** Objet PDO d'accès à la BD 
-        Statique donc partagé par toutes les instances des classes dérivées */
+    /** Objet PDO d'accès à la BD
+     * Statique donc partagé par toutes les instances des classes dérivées */
     private static $bdd;
 
     /**
      * Exécute une requête SQL
-     * 
+     *
      * @param string $sql Requête SQL
      * @param array $params Paramètres de la requête
      * @return PDOStatement Résultats de la requête
+     *
      */
     protected function executerRequete($sql, $params = null)
     {
@@ -30,32 +33,34 @@ abstract class Modele {
             $result = self::getBdd()->prepare($sql);
             foreach($params as $key => $value) {
                 if (is_numeric($value)) {
-                    $result->bindValue($key, $value, \PDO::PARAM_INT);
+                    $result->bindValue(1, $value, \PDO::PARAM_INT);
                 } else {
-                    $result->bindValue($key, $value, \PDO::PARAM_STR);
+                    $result->bindValue(1, $value, \PDO::PARAM_STR);
                 }
-            }
+            };
             $result->execute();
         }
         return $result;
     }
 
-    /**
-     * Renvoie un objet de connexion à la BDD en initialisant la connexion au besoin
-     * 
-     * @return PDO Objet PDO de connexion à la BDD
-     */
-    private static function getBdd() {
-        if (self::$bdd === null) {
-            // Récupération des paramètres de configuration BD
-            $dsn = Configuration::get("dsn");
-            $login = Configuration::get("login");
-            $mdp = Configuration::get("mdp");
-            // Création de la connexion
-            self::$bdd = new \PDO($dsn, $login, $mdp,
+        /**
+         * Renvoie un objet de connexion à la BDD en initialisant la connexion au besoin
+         *
+         * @return PDO Objet PDO de connexion à la BDD
+         */
+        private
+        static function getBdd()
+        {
+            if (self::$bdd === null) {
+                // Récupération des paramètres de configuration BD
+                $dsn = Configuration::get("dsn");
+                $login = Configuration::get("login");
+                $mdp = Configuration::get("mdp");
+                // Création de la connexion
+                self::$bdd = new \PDO($dsn, $login, $mdp,
                     array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION));
+            }
+            return self::$bdd;
         }
-        return self::$bdd;
-    }
 
-}
+    }

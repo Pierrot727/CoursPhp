@@ -100,4 +100,29 @@ class ControleurAdmin extends ControleurSecurise
         $this->genererVue();
     }
 
+    public function compterChecbox () {
+        if(!empty($_POST['check_list'])) {
+            foreach($_POST['check_list'] as $check) {
+                echo $check; //echoes the value set in the HTML form for each checked checkbox.
+                //so, if I were to check 1, 3, and 5 it would echo value 1, value 3, value 5.
+                //in your case, it would echo whatever $row['Report ID'] is equivalent to.
+            }
+        }
+    }
+
+
+    public function supprimerBillet()
+    {
+        $this->compterChecbox();
+        if ($this->requete->existeParametre("idBillet")) {
+            $idBillet = $this->requete->getParametre("idBillet");
+            $this->billet->supprimerBillet($idBillet);
+            $this->rediriger("admin");
+        }
+
+            $param['msgErreur'] = 'ca marche pas';
+        var_dump($param);
+        var_dump($idBillet);
+    }
+
 }
